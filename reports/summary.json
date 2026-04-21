@@ -1,0 +1,24 @@
+{
+  "metadata": {
+    "benchmark_name": "Stage3_Current_Agent_Benchmark",
+    "agent_version": "v2",
+    "scope": "stage3_benchmark_failure_analysis",
+    "total": 50,
+    "timestamp": "2026-04-21T17:03:23",
+    "pass_count": 18,
+    "fail_count": 32
+  },
+  "metrics": {
+    "avg_score": 0.3756,
+    "hit_rate": 0.66,
+    "agreement_rate": 0.9592,
+    "avg_map": 0.43,
+    "avg_mrr": 0.5833,
+    "avg_faithfulness": 0.3086,
+    "avg_answer_relevance": 0.4761,
+    "avg_latency_s": 9.519,
+    "total_cost_usd": 0.0198,
+    "cost_per_eval_usd": 0.000396,
+    "judge_total_cost_usd": 0.0487
+  }
+}
