@@ -1,9 +1,9 @@
 [
   {
     "id": "1-1.5-q2",
-    "question": "Read *Campbell v. State*, 5 S.W.3d 693 (1999). Why did the defendant in this case claim that the restitution award was too high? Did the Texas Court of Criminal Appeals agree with the defendant’s claim? The case is available at this link: <http://scholar.google.com/scholar_case?case=11316909200521760089&hl=en&as_sdt=2&as_vis=1&oi=scholarr>.",
+    "question": "Read *Campbell v. State*, 5 S.W.3d 693 (1999). Why did the defendant in this case claim that the restitution award was too high? Did the Texas Court of Criminal Appeals agree with the defendant\u2019s claim? The case is available at this link: <http://scholar.google.com/scholar_case?case=11316909200521760089&hl=en&as_sdt=2&as_vis=1&oi=scholarr>.",
     "expected_answer": "In *Campbell*, the defendant entered a plea agreement specifying that he had committed theft in an amount *under* $100,000. The trial court determined that the defendant had *actually* stolen $100,000 and awarded restitution of $100,000 to various victims. The defendant claimed that this amount was excessive because it exceeded the parameters of the theft statute he was convicted of violating. The Texas Court of Criminal Appeals *disagreed* and held that the discretion of how much restitution to award belongs to the judge. As long as the judge properly ascertained this amount based on the facts, restitution could exceed the amount specified in the criminal statute the defendant was convicted of violating.",
-    "agent_answer": "1. Legal conclusion  \nThe defendant in *Campbell v. State* claimed that the restitution award was too high because it exceeded the property-value range specified for the offense of theft by deception under Texas Penal Code § 31.03(e)(5)(B), which was more than $20,000 but less than $100,000. The Texas Court of Criminal Appeals granted discretionary review to resolve the issue, indicating that the appeals court had struck the restitution amount as excessive and an abuse of discretion. The context does not explicitly state the final ruling of the Texas Court of Criminal Appeals on whether they agreed with the defendant’s claim.\n\n2. Statutory or doctrinal basis  \nThe defendant pleaded no contest to theft by deception of property valued at $20,000 or more but less than $100,000, under Tex. Penal Code § 31.03(e)(5)(B). The trial court recommended restitution of $100,000, which the Fourteenth Court of Appeals found exceeded the statutory property-value range for the offense and thus was an excessive award and an abuse of discretion. The appeals court also found the restitution recommendation violated the Texas Code of Criminal Procedure article requirements.\n\n3. Qualifications  \nThe State argued that the property-value range for theft affects only the punishment and does not limit the restitution amount. The Texas Court of Criminal Appeals granted review to resolve this dispute, but the provided context does not include the final decision on this issue.\n\n4. Conflicts  \nThere is a conflict between the appeals court’s view that the restitution amount must fall within the statutory property-value range of the offense and the State’s argument that the restitution amount is not so limited. The Texas Court of Criminal Appeals’ grant of discretionary review suggests it intended to address this conflict, but the outcome is not provided in the context.",
+    "agent_answer": "1. Legal conclusion  \nThe defendant in *Campbell v. State* claimed that the restitution award was too high because it exceeded the property-value range specified for the offense of theft by deception under Texas Penal Code \u00a7 31.03(e)(5)(B), which was more than $20,000 but less than $100,000. The Texas Court of Criminal Appeals granted discretionary review to resolve the issue, indicating that the appeals court had struck the restitution amount as excessive and an abuse of discretion. The context does not explicitly state the final ruling of the Texas Court of Criminal Appeals on whether they agreed with the defendant\u2019s claim.\n\n2. Statutory or doctrinal basis  \nThe defendant pleaded no contest to theft by deception of property valued at $20,000 or more but less than $100,000, under Tex. Penal Code \u00a7 31.03(e)(5)(B). The trial court recommended restitution of $100,000, which the Fourteenth Court of Appeals found exceeded the statutory property-value range for the offense and thus was an excessive award and an abuse of discretion. The appeals court also found the restitution recommendation violated the Texas Code of Criminal Procedure article requirements.\n\n3. Qualifications  \nThe State argued that the property-value range for theft affects only the punishment and does not limit the restitution amount. The Texas Court of Criminal Appeals granted review to resolve this dispute, but the provided context does not include the final decision on this issue.\n\n4. Conflicts  \nThere is a conflict between the appeals court\u2019s view that the restitution amount must fall within the statutory property-value range of the offense and the State\u2019s argument that the restitution amount is not so limited. The Texas Court of Criminal Appeals\u2019 grant of discretionary review suggests it intended to address this conflict, but the outcome is not provided in the context.",
     "relevant_passage_ids": [
       "1-1.5",
       "1-1.5-q2-supp-1"
@@ -19,7 +19,7 @@
       "hit_rate": 1.0
     },
     "faithfulness": {
-      "score": 0.2857,
+      "score": 0.3419,
       "score_gpt": 0.2857,
       "score_claude": 0.2857,
       "agreement": 1.0,
@@ -28,9 +28,9 @@
       "claims_supported_gpt": 2,
       "claims_supported_claude": 2
     },
-    "answer_relevance": 0.6677,
+    "answer_relevance": 0.7081,
     "judge": {
-      "final_score": 0.4385,
+      "final_score": 0.4764,
       "individual_scores": {
         "gpt-4o-mini": 0.2857,
         "claude-haiku": 0.2857
@@ -54,7 +54,7 @@
   {
     "id": "1-1.6-q2",
     "question": "Read *Shaw v. Murphy*, 532 U.S. 223 (2001). Did the US Supreme Court allow prison inmates the First Amendment right to give other inmates legal advice? Why or why not? The case is available at this link: <http://scholar.google.com/scholar_case?case=9536800826824133166&hl=en&as_sdt=2&as_vis=1&oi=scholarr>.",
-    "expected_answer": "The US Supreme Court held that inmates do not have the First Amendment right to give other inmates legal advice. The Court based its ruling on the prison’s interest in ensuring prison order, security, and inmate rehabilitation. The Court stated, “We nonetheless have maintained that the constitutional rights that prisoners possess are more limited in scope than the constitutional rights held by individuals in society at large.”*Shaw v. Murphy*, 532 U.S. 223, 229 (2001), accessed October 4, 2010, <http://scholar.google.com/scholar_case?case=9536800826824133166&hl=en&as_sdt=2&as_vis=1&oi=scholarr>.",
+    "expected_answer": "The US Supreme Court held that inmates do not have the First Amendment right to give other inmates legal advice. The Court based its ruling on the prison\u2019s interest in ensuring prison order, security, and inmate rehabilitation. The Court stated, \u201cWe nonetheless have maintained that the constitutional rights that prisoners possess are more limited in scope than the constitutional rights held by individuals in society at large.\u201d*Shaw v. Murphy*, 532 U.S. 223, 229 (2001), accessed October 4, 2010, <http://scholar.google.com/scholar_case?case=9536800826824133166&hl=en&as_sdt=2&as_vis=1&oi=scholarr>.",
     "agent_answer": "I cannot find sufficient information in the provided context to answer this question.",
     "relevant_passage_ids": [
       "1-1.6",
@@ -107,7 +107,7 @@
     "id": "1-1.2-q1",
     "question": "Paul, a law enforcement officer, arrests Barney for creating a disturbance at a subway station. While Barney is handcuffed facedown on the ground, Paul shoots and kills him. Paul claims that he accidentally grabbed his gun instead of his Taser. Is this an issue of criminal law or criminal procedure?",
     "expected_answer": "This is an issue of *criminal law*. Although Paul is a law enforcement officer, when he shoots Barney while he is facedown in handcuffs, he may be committing a crime. The question in this case is not whether the arrest was executed properly, but whether a *crime was committed* after the arrest.",
-    "agent_answer": "1. Legal conclusion — The issue of Paul shooting and killing Barney while Barney is handcuffed and facedown on the ground is an issue of criminal procedure.\n\n2. Statutory or doctrinal basis — According to Document 2, criminal procedure concerns the enforcement of individuals’ rights during the criminal process, including law enforcement investigation, arrest, and trial. The scenario involves the conduct of a law enforcement officer during an arrest and the use of force, which falls under enforcement of rights and police conduct, thus a criminal procedure issue.\n\n3. Qualifications — None specified in the provided context.\n\n4. Conflicts — None identified in the provided context.",
+    "agent_answer": "1. Legal conclusion \u2014 The issue of Paul shooting and killing Barney while Barney is handcuffed and facedown on the ground is an issue of criminal procedure.\n\n2. Statutory or doctrinal basis \u2014 According to Document 2, criminal procedure concerns the enforcement of individuals\u2019 rights during the criminal process, including law enforcement investigation, arrest, and trial. The scenario involves the conduct of a law enforcement officer during an arrest and the use of force, which falls under enforcement of rights and police conduct, thus a criminal procedure issue.\n\n3. Qualifications \u2014 None specified in the provided context.\n\n4. Conflicts \u2014 None identified in the provided context.",
     "relevant_passage_ids": [
       "1-1.2"
     ],
@@ -122,7 +122,7 @@
       "hit_rate": 1.0
     },
     "faithfulness": {
-      "score": 0.3333,
+      "score": 0.3602,
       "score_gpt": 0.3333,
       "score_claude": 0.3333,
       "agreement": 1.0,
@@ -131,9 +131,9 @@
       "claims_supported_gpt": 2,
       "claims_supported_claude": 2
     },
-    "answer_relevance": 0.5569,
+    "answer_relevance": 0.6302,
     "judge": {
-      "final_score": 0.4227,
+      "final_score": 0.4839,
       "individual_scores": {
         "gpt-4o-mini": 0.3333,
         "claude-haiku": 0.3333
@@ -157,8 +157,8 @@
   {
     "id": "1-1.4-q1",
     "question": "Harrison kills Calista and is prosecuted and sentenced to one year in jail. Did Harrison commit a felony or a misdemeanor?",
-    "expected_answer": "This crime is probably a *misdemeanor* because Harrison was sentenced to one year in *jail*, rather than prison. Although the result, Calista’s death, is very serious, the method of killing may have been accidental. Criminal homicide is discussed in Chapter 9.",
-    "agent_answer": "1. Legal conclusion  \nHarrison committed a misdemeanor.\n\n2. Statutory or doctrinal basis  \nFelony murder is defined as a criminal homicide occurring during the commission or attempted commission of a felony, which typically results in severe penalties such as first-degree murder charges (Document 1). The fact that Harrison was sentenced to only one year in jail indicates a punishment consistent with a misdemeanor rather than a felony, as felonies generally carry more severe sentences. Therefore, the killing by Harrison was not prosecuted as felony murder, implying the underlying crime was not a felony or the homicide was not charged as felony murder.\n\n3. Qualifications  \nThis conclusion assumes that the sentencing reflects the classification of the offense. The context does not provide specific statutory definitions or sentencing guidelines for Harrison’s jurisdiction, but the one-year sentence strongly suggests a misdemeanor classification.",
+    "expected_answer": "This crime is probably a *misdemeanor* because Harrison was sentenced to one year in *jail*, rather than prison. Although the result, Calista\u2019s death, is very serious, the method of killing may have been accidental. Criminal homicide is discussed in Chapter 9.",
+    "agent_answer": "1. Legal conclusion  \nHarrison committed a misdemeanor.\n\n2. Statutory or doctrinal basis  \nFelony murder is defined as a criminal homicide occurring during the commission or attempted commission of a felony, which typically results in severe penalties such as first-degree murder charges (Document 1). The fact that Harrison was sentenced to only one year in jail indicates a punishment consistent with a misdemeanor rather than a felony, as felonies generally carry more severe sentences. Therefore, the killing by Harrison was not prosecuted as felony murder, implying the underlying crime was not a felony or the homicide was not charged as felony murder.\n\n3. Qualifications  \nThis conclusion assumes that the sentencing reflects the classification of the offense. The context does not provide specific statutory definitions or sentencing guidelines for Harrison\u2019s jurisdiction, but the one-year sentence strongly suggests a misdemeanor classification.",
     "relevant_passage_ids": [
       "1-1.4"
     ],
@@ -173,7 +173,7 @@
       "hit_rate": 0.0
     },
     "faithfulness": {
-      "score": 0.375,
+      "score": 0.4114,
       "score_gpt": 0.5,
       "score_claude": 0.25,
       "agreement": 0.75,
@@ -182,9 +182,9 @@
       "claims_supported_gpt": 2,
       "claims_supported_claude": 1
     },
-    "answer_relevance": 0.6493,
+    "answer_relevance": 0.698,
     "judge": {
-      "final_score": 0.4847,
+      "final_score": 0.5272,
       "individual_scores": {
         "gpt-4o-mini": 0.5,
         "claude-haiku": 0.25
@@ -207,9 +207,9 @@
   },
   {
     "id": "2-2.2-q1",
-    "question": "A mayor enacts a policy that prohibits police officers in his city from enforcing a state law prohibiting the possession and use of marijuana. The mayor’s policy specifically states that within the city limits, marijuana is legal to possess and use. Which constitutional principle is the mayor violating? Which branch of government should check and balance the mayor’s behavior in this matter?",
-    "expected_answer": "The mayor is violating separation of powers because members of the executive branch cannot invalidate or supersede laws passed by the legislative branch; only the *judicial* branch is entitled to do this via *judicial review*. The judicial branch should check and balance this action, *if* someone attacks the mayor’s policy in court.",
-    "agent_answer": "1. Legal conclusion  \nThe mayor is violating the constitutional principle of federalism by attempting to nullify state law within the city limits. The branch of government that should check and balance the mayor’s behavior is the judicial branch.\n\n2. Statutory or doctrinal basis  \n- Federalism divides governmental power between the federal government and each of the states, creating separate legal systems that operate harmoniously (Document 1: 2.1 Federalism).  \n- The legislative branch is responsible for creating statutory laws, including state statutes, and the mayor, as an executive municipal official, cannot override state law by declaring marijuana legal within city limits (Document 3: 2.2 The Branches of Government).  \n- The judicial branch interprets the Constitution and decides whether a government branch or official has overstepped its boundaries, thus maintaining the balance of power and enforcing separation of powers (Document 3: 2.2 The Branches of Government).\n\n3. Qualifications  \n- The mayor’s policy conflicts with state law, which criminalizes possession and use of marijuana. Under federalism, state law governs within the state’s jurisdiction unless preempted by federal law. The mayor’s policy cannot supersede state law.  \n- The judicial branch’s role in checking the mayor’s conduct arises because courts interpret constitutional boundaries and resolve conflicts between government actors.\n\n4. Conflicts  \n- There is a conflict between the mayor’s executive policy and the state legislative authority to enact criminal laws. The legislative branch enacts laws, and the executive branch enforces them. The mayor’s refusal to enforce state law usurps legislative authority.  \n- The judicial branch, as the constitutional interpreter and arbiter of separation of powers, resolves this conflict by checking the mayor’s overreach.",
+    "question": "A mayor enacts a policy that prohibits police officers in his city from enforcing a state law prohibiting the possession and use of marijuana. The mayor\u2019s policy specifically states that within the city limits, marijuana is legal to possess and use. Which constitutional principle is the mayor violating? Which branch of government should check and balance the mayor\u2019s behavior in this matter?",
+    "expected_answer": "The mayor is violating separation of powers because members of the executive branch cannot invalidate or supersede laws passed by the legislative branch; only the *judicial* branch is entitled to do this via *judicial review*. The judicial branch should check and balance this action, *if* someone attacks the mayor\u2019s policy in court.",
+    "agent_answer": "1. Legal conclusion  \nThe mayor is violating the constitutional principle of federalism by attempting to nullify state law within the city limits. The branch of government that should check and balance the mayor\u2019s behavior is the judicial branch.\n\n2. Statutory or doctrinal basis  \n- Federalism divides governmental power between the federal government and each of the states, creating separate legal systems that operate harmoniously (Document 1: 2.1 Federalism).  \n- The legislative branch is responsible for creating statutory laws, including state statutes, and the mayor, as an executive municipal official, cannot override state law by declaring marijuana legal within city limits (Document 3: 2.2 The Branches of Government).  \n- The judicial branch interprets the Constitution and decides whether a government branch or official has overstepped its boundaries, thus maintaining the balance of power and enforcing separation of powers (Document 3: 2.2 The Branches of Government).\n\n3. Qualifications  \n- The mayor\u2019s policy conflicts with state law, which criminalizes possession and use of marijuana. Under federalism, state law governs within the state\u2019s jurisdiction unless preempted by federal law. The mayor\u2019s policy cannot supersede state law.  \n- The judicial branch\u2019s role in checking the mayor\u2019s conduct arises because courts interpret constitutional boundaries and resolve conflicts between government actors.\n\n4. Conflicts  \n- There is a conflict between the mayor\u2019s executive policy and the state legislative authority to enact criminal laws. The legislative branch enacts laws, and the executive branch enforces them. The mayor\u2019s refusal to enforce state law usurps legislative authority.  \n- The judicial branch, as the constitutional interpreter and arbiter of separation of powers, resolves this conflict by checking the mayor\u2019s overreach.",
     "relevant_passage_ids": [
       "2-2.2"
     ],
@@ -224,7 +224,7 @@
       "hit_rate": 1.0
     },
     "faithfulness": {
-      "score": 0.6,
+      "score": 0.6139,
       "score_gpt": 0.6,
       "score_claude": 0.6,
       "agreement": 1.0,
@@ -233,9 +233,9 @@
       "claims_supported_gpt": 3,
       "claims_supported_claude": 3
     },
-    "answer_relevance": 0.5136,
+    "answer_relevance": 0.5903,
     "judge": {
-      "final_score": 0.5654,
+      "final_score": 0.6209,
       "individual_scores": {
         "gpt-4o-mini": 0.6,
         "claude-haiku": 0.6
@@ -258,9 +258,9 @@
   },
   {
     "id": "2-2.4-q1",
-    "question": "Bria is asserting the insanity defense in her criminal prosecution for murder. In Bria’s state, defendants have the burden of production and persuasion to a preponderance of evidence when proving the insanity defense. Bria offers her own testimony that she is insane and incapable of forming criminal intent. Will Bria be successful with her defense? Why or why not?",
+    "question": "Bria is asserting the insanity defense in her criminal prosecution for murder. In Bria\u2019s state, defendants have the burden of production and persuasion to a preponderance of evidence when proving the insanity defense. Bria offers her own testimony that she is insane and incapable of forming criminal intent. Will Bria be successful with her defense? Why or why not?",
     "expected_answer": "Bria will not be successful with the insanity defense because she cannot meet the burden of proof, which is **preponderance of evidence**. Preponderance of evidence is a fairly low standard, but Bria must still convince the trier of fact that it is more likely than not she is insane. She cannot do this with her testimony, standing alone. Clearly, Bria has an important *self-interest* in eliminating her criminal responsibility in this case. Thus her *subjective* testimony regarding her own mental state is not compelling enough to meet the 51 percent to 49 percent standard.",
-    "agent_answer": "1. Legal conclusion  \nBria will be successful with her insanity defense if her testimony persuades the trier of fact by a preponderance of the evidence that she is legally insane under the applicable test in her jurisdiction.\n\n2. Statutory or doctrinal basis  \nThe context states that jurisdictions vary as to the burden of proving insanity, with some requiring the defendant to both produce evidence and persuade the trier of fact by a preponderance of the evidence that the defendant is legally insane. Since Bria’s state imposes this burden, her testimony must meet this standard to succeed. The insanity defense is an affirmative defense excusing criminal conduct when the defendant is legally insane, meaning she lacked the requisite mental capacity or control as defined by the applicable insanity test (e.g., M’Naghten, irresistible impulse, substantial capacity, or Durham). The defense results in an acquittal if successful.\n\n3. Qualifications  \nSuccess depends on the sufficiency and credibility of Bria’s testimony and any other evidence to meet the preponderance of evidence standard. The defense must rebut the presumption of sanity and persuade the factfinder. The specific insanity test applied in Bria’s state will determine the precise elements she must prove (e.g., cognitive incapacity under M’Naghten or volitional incapacity under irresistible impulse). Simply asserting incapacity to form criminal intent may be insufficient if it does not align with the recognized insanity test or if the evidence does not meet the burden of persuasion.\n\n4. Conflicts  \nNo conflicts arise from the provided context regarding the burden of proof or the nature of the insanity defense in this scenario. The burden of production and persuasion to a preponderance of evidence is consistent with the general principles outlined.",
+    "agent_answer": "1. Legal conclusion  \nBria will be successful with her insanity defense if her testimony persuades the trier of fact by a preponderance of the evidence that she is legally insane under the applicable test in her jurisdiction.\n\n2. Statutory or doctrinal basis  \nThe context states that jurisdictions vary as to the burden of proving insanity, with some requiring the defendant to both produce evidence and persuade the trier of fact by a preponderance of the evidence that the defendant is legally insane. Since Bria\u2019s state imposes this burden, her testimony must meet this standard to succeed. The insanity defense is an affirmative defense excusing criminal conduct when the defendant is legally insane, meaning she lacked the requisite mental capacity or control as defined by the applicable insanity test (e.g., M\u2019Naghten, irresistible impulse, substantial capacity, or Durham). The defense results in an acquittal if successful.\n\n3. Qualifications  \nSuccess depends on the sufficiency and credibility of Bria\u2019s testimony and any other evidence to meet the preponderance of evidence standard. The defense must rebut the presumption of sanity and persuade the factfinder. The specific insanity test applied in Bria\u2019s state will determine the precise elements she must prove (e.g., cognitive incapacity under M\u2019Naghten or volitional incapacity under irresistible impulse). Simply asserting incapacity to form criminal intent may be insufficient if it does not align with the recognized insanity test or if the evidence does not meet the burden of persuasion.\n\n4. Conflicts  \nNo conflicts arise from the provided context regarding the burden of proof or the nature of the insanity defense in this scenario. The burden of production and persuasion to a preponderance of evidence is consistent with the general principles outlined.",
     "relevant_passage_ids": [
       "2-2.4"
     ],
@@ -275,7 +275,7 @@
       "hit_rate": 0.0
     },
     "faithfulness": {
-      "score": 0.25,
+      "score": 0.2943,
       "score_gpt": 0.3333,
       "score_claude": 0.1667,
       "agreement": 0.8333,
@@ -284,9 +284,9 @@
       "claims_supported_gpt": 2,
       "claims_supported_claude": 1
     },
-    "answer_relevance": 0.7568,
+    "answer_relevance": 0.7726,
     "judge": {
-      "final_score": 0.4527,
+      "final_score": 0.5056,
       "individual_scores": {
         "gpt-4o-mini": 0.3333,
         "claude-haiku": 0.1667
@@ -310,8 +310,8 @@
   {
     "id": "2-2.3-q1",
     "question": "Jenna sues Max for $25,000, based on a car accident that occurs in Indiana. Jenna loses at trial and appeals to the highest state appellate court in Indiana, where she loses again. Can Jenna appeal her case to the US Supreme Court? Why or why not?",
-    "expected_answer": "Jenna cannot appeal to the US Supreme Court because she does not appear to have a *federal* issue. Parties can appeal from a state’s highest level appellate court directly into the US Supreme Court, but the US Supreme Court is a federal court and only has the jurisdiction to hear federal matters. Jenna cannot meet the criteria of diversity jurisdiction or diversity of citizenship because even if she and Max are citizens of different states, the amount in controversy is too low (it needs to be at least $75,000).",
-    "agent_answer": "1. Legal conclusion  \nJenna can appeal her case to the U.S. Supreme Court only if there is a federal question involved; otherwise, the U.S. Supreme Court generally does not review state court decisions on purely state law matters such as a car accident under Indiana law.\n\n2. Statutory or doctrinal basis  \nThe context includes no direct provision on appeals to the U.S. Supreme Court, but the case of Stevens v. State of Indiana (Document 1) demonstrates the Indiana Supreme Court as the highest state appellate court. The absence of any mention of federal question jurisdiction or constitutional issues in the context implies that appeals to the U.S. Supreme Court require a federal question. The Texas case (Document 2) involves federal constitutional rights under 42 U.S.C.A. § 1983, illustrating that federal questions permit federal appellate review. By contrast, a car accident claim is a state law matter.\n\n3. Qualifications  \nIf Jenna’s case involved a substantial federal constitutional issue or federal statute, she could petition the U.S. Supreme Court for certiorari. However, a typical state tort claim for $25,000 arising from a car accident in Indiana is a matter of state law and does not raise a federal question.\n\n4. Conflicts  \nNo conflicting provisions are present in the context regarding appellate jurisdiction. The hierarchy is that the Indiana Supreme Court is the highest state court, and the U.S. Supreme Court reviews only federal questions arising from state court decisions.",
+    "expected_answer": "Jenna cannot appeal to the US Supreme Court because she does not appear to have a *federal* issue. Parties can appeal from a state\u2019s highest level appellate court directly into the US Supreme Court, but the US Supreme Court is a federal court and only has the jurisdiction to hear federal matters. Jenna cannot meet the criteria of diversity jurisdiction or diversity of citizenship because even if she and Max are citizens of different states, the amount in controversy is too low (it needs to be at least $75,000).",
+    "agent_answer": "1. Legal conclusion  \nJenna can appeal her case to the U.S. Supreme Court only if there is a federal question involved; otherwise, the U.S. Supreme Court generally does not review state court decisions on purely state law matters such as a car accident under Indiana law.\n\n2. Statutory or doctrinal basis  \nThe context includes no direct provision on appeals to the U.S. Supreme Court, but the case of Stevens v. State of Indiana (Document 1) demonstrates the Indiana Supreme Court as the highest state appellate court. The absence of any mention of federal question jurisdiction or constitutional issues in the context implies that appeals to the U.S. Supreme Court require a federal question. The Texas case (Document 2) involves federal constitutional rights under 42 U.S.C.A. \u00a7 1983, illustrating that federal questions permit federal appellate review. By contrast, a car accident claim is a state law matter.\n\n3. Qualifications  \nIf Jenna\u2019s case involved a substantial federal constitutional issue or federal statute, she could petition the U.S. Supreme Court for certiorari. However, a typical state tort claim for $25,000 arising from a car accident in Indiana is a matter of state law and does not raise a federal question.\n\n4. Conflicts  \nNo conflicting provisions are present in the context regarding appellate jurisdiction. The hierarchy is that the Indiana Supreme Court is the highest state court, and the U.S. Supreme Court reviews only federal questions arising from state court decisions.",
     "relevant_passage_ids": [
       "2-2.3"
     ],
@@ -326,7 +326,7 @@
       "hit_rate": 0.0
     },
     "faithfulness": {
-      "score": 0.4,
+      "score": 0.4353,
       "score_gpt": 0.4,
       "score_claude": 0.4,
       "agreement": 1.0,
@@ -335,9 +335,9 @@
       "claims_supported_gpt": 2,
       "claims_supported_claude": 2
     },
-    "answer_relevance": 0.6518,
+    "answer_relevance": 0.669,
     "judge": {
-      "final_score": 0.5007,
+      "final_score": 0.5701,
       "individual_scores": {
         "gpt-4o-mini": 0.4,
         "claude-haiku": 0.4
@@ -360,8 +360,8 @@
   },
   {
     "id": "3-3.4-q1",
-    "question": "A state statute prohibits inmates in state prison from engaging in consensual sodomy. An inmate is prosecuted under the statute. How will a court determine whether this statute is constitutional? Read the statute on which this exercise is based: California Penal Code § 286(e), <http://law.onecle.com/california/penal/286.html>.",
-    "expected_answer": "The court will probably analyze whether the statute is constitutional under the **right to privacy** and the **equal protection clause**. The right to privacy analysis will use *strict scrutiny* because the right to privacy is *fundamental*. The state must demonstrate a *compelling* state interest in regulating sex in prison. The state’s arguments will probably focus on maintaining integrity, safety, and security in the institution. Under the equal protection clause analysis, the state has to show a *legitimate* state interest pursuant to the rational basis test because the category targeted—inmates in prison—is *rational*, not arbitrary.",
+    "question": "A state statute prohibits inmates in state prison from engaging in consensual sodomy. An inmate is prosecuted under the statute. How will a court determine whether this statute is constitutional? Read the statute on which this exercise is based: California Penal Code \u00a7 286(e), <http://law.onecle.com/california/penal/286.html>.",
+    "expected_answer": "The court will probably analyze whether the statute is constitutional under the **right to privacy** and the **equal protection clause**. The right to privacy analysis will use *strict scrutiny* because the right to privacy is *fundamental*. The state must demonstrate a *compelling* state interest in regulating sex in prison. The state\u2019s arguments will probably focus on maintaining integrity, safety, and security in the institution. Under the equal protection clause analysis, the state has to show a *legitimate* state interest pursuant to the rational basis test because the category targeted\u2014inmates in prison\u2014is *rational*, not arbitrary.",
     "agent_answer": "1. Legal conclusion  \nA court will determine the constitutionality of the statute prohibiting consensual sodomy by analyzing whether the statute violates constitutional protections such as the right to privacy and due process under the Fourteenth Amendment, and whether it criminalizes constitutionally protected conduct without a sufficient government interest.\n\n2. Statutory or doctrinal basis  \n- The Fourteenth Amendment due process clause protects fundamental rights, including the right to privacy, which has been selectively incorporated from the Bill of Rights and applies to the states.  \n- Statutes that are vague or criminalize constitutionally protected conduct (overbroad) violate due process.  \n- The equal protection clause of the Fourteenth Amendment prevents statutes that discriminate without a sufficient government interest.  \n- The First Amendment protects expressive conduct from criminalization without a compelling government interest and the least restrictive means, though this is less directly applicable here.  \n- The US Constitution protects criminal defendants from statutes that punish without trial or are applied retroactively, and requires statutes to be supported by a sufficient government interest.  \n\n3. Qualifications  \n- State constitutions may provide more protection than the federal Constitution as long as they do not violate federal supremacy.  \n- The statute must be analyzed in light of whether consensual sodomy is constitutionally protected conduct under the right to privacy.  \n- The statute must not be vague or overbroad in criminalizing conduct.  \n- The government must demonstrate a sufficient interest to justify the statute.  \n\n4. Conflicts  \n- If the statute conflicts with the right to privacy under the Fourteenth Amendment, the federal constitutional protection will prevail due to federal supremacy.  \n- If the statute is challenged under both due process and equal protection clauses, the court will assess whether the statute is both sufficiently clear and justified by a sufficient government interest.  \n\nIn sum, the court will evaluate whether the statute criminalizes constitutionally protected private consensual conduct without sufficient justification, thereby violating the Fourteenth Amendment due process and possibly equal protection clauses.",
     "relevant_passage_ids": [
       "3-3.4",
@@ -378,7 +378,7 @@
       "hit_rate": 0.0
     },
     "faithfulness": {
-      "score": 0.2857,
+      "score": 0.3511,
       "score_gpt": 0.2857,
       "score_claude": 0.2857,
       "agreement": 1.0,
@@ -387,9 +387,9 @@
       "claims_supported_gpt": 2,
       "claims_supported_claude": 2
     },
-    "answer_relevance": 0.5529,
+    "answer_relevance": 0.6228,
     "judge": {
-      "final_score": 0.3926,
+      "final_score": 0.4257,
       "individual_scores": {
         "gpt-4o-mini": 0.2857,
         "claude-haiku": 0.2857
@@ -430,7 +430,7 @@
       "hit_rate": 1.0
     },
     "faithfulness": {
-      "score": 0.25,
+      "score": 0.3012,
       "score_gpt": 0.25,
       "score_claude": 0.25,
       "agreement": 1.0,
@@ -439,9 +439,9 @@
       "claims_supported_gpt": 1,
       "claims_supported_claude": 1
     },
-    "answer_relevance": 0.5382,
+    "answer_relevance": 0.5892,
     "judge": {
-      "final_score": 0.3653,
+      "final_score": 0.4101,
       "individual_scores": {
         "gpt-4o-mini": 0.25,
         "claude-haiku": 0.25
@@ -464,9 +464,9 @@
   },
   {
     "id": "3-3.6-q1",
-    "question": "Andrew is sentenced to death for torture. In Andrew’s state, there is an “eye-for-an-eye” statute that mandates punishment that mimics the crime the defendant committed. Pursuant to this statute, Andrew will be tortured to death. Is the state’s eye-for-an-eye statute constitutional under the Eighth Amendment? Why or why not?",
+    "question": "Andrew is sentenced to death for torture. In Andrew\u2019s state, there is an \u201ceye-for-an-eye\u201d statute that mandates punishment that mimics the crime the defendant committed. Pursuant to this statute, Andrew will be tortured to death. Is the state\u2019s eye-for-an-eye statute constitutional under the Eighth Amendment? Why or why not?",
     "expected_answer": "The eye-for-an-eye statute is unconstitutional because it mandates an inhumane punishment under the Eighth Amendment. Torture is too severe a punishment for *any* crime.",
-    "agent_answer": "1. Legal conclusion  \nThe state’s eye-for-an-eye statute mandating torture as punishment is unconstitutional under the Eighth Amendment.\n\n2. Statutory or doctrinal basis  \nThe Eighth Amendment prohibits “cruel and unusual punishments inflicted.” Torture as a method of execution or punishment would constitute cruel punishment, which the government must refrain from inflicting (Document 1, 3.6: Excessive Punishment). The prohibition against cruel and unusual punishment directly limits sentencing procedures and criminal statutes mandating penalties that are inhumane or disproportionate. Since torture is inherently inhumane and cruel, a statute mandating torture as punishment violates the Eighth Amendment’s ban on cruel and unusual punishment.\n\n3. Qualifications  \nNone explicitly stated in the provided context.\n\n4. Conflicts  \nNo conflicting provisions in the provided context address the constitutionality of torture as punishment under the Eighth Amendment. The Eighth Amendment’s prohibition on cruel and unusual punishment is controlling.",
+    "agent_answer": "1. Legal conclusion  \nThe state\u2019s eye-for-an-eye statute mandating torture as punishment is unconstitutional under the Eighth Amendment.\n\n2. Statutory or doctrinal basis  \nThe Eighth Amendment prohibits \u201ccruel and unusual punishments inflicted.\u201d Torture as a method of execution or punishment would constitute cruel punishment, which the government must refrain from inflicting (Document 1, 3.6: Excessive Punishment). The prohibition against cruel and unusual punishment directly limits sentencing procedures and criminal statutes mandating penalties that are inhumane or disproportionate. Since torture is inherently inhumane and cruel, a statute mandating torture as punishment violates the Eighth Amendment\u2019s ban on cruel and unusual punishment.\n\n3. Qualifications  \nNone explicitly stated in the provided context.\n\n4. Conflicts  \nNo conflicting provisions in the provided context address the constitutionality of torture as punishment under the Eighth Amendment. The Eighth Amendment\u2019s prohibition on cruel and unusual punishment is controlling.",
     "relevant_passage_ids": [
       "3-3.6"
     ],
@@ -481,7 +481,7 @@
       "hit_rate": 1.0
     },
     "faithfulness": {
-      "score": 0.6667,
+      "score": 0.708,
       "score_gpt": 0.6667,
       "score_claude": 0.6667,
       "agreement": 1.0,
@@ -490,9 +490,9 @@
       "claims_supported_gpt": 2,
       "claims_supported_claude": 2
     },
-    "answer_relevance": 0.6642,
+    "answer_relevance": 0.7133,
     "judge": {
-      "final_score": 0.6657,
+      "final_score": 0.6956,
       "individual_scores": {
         "gpt-4o-mini": 0.6667,
         "claude-haiku": 0.6667
@@ -516,7 +516,7 @@
   {
     "id": "3-3.3-q2",
     "question": "Read *Reno v. American Civ. Liberties Union*, 521 U.S. 844 (1997). This case reviews the constitutionality of a federal statute regulating Internet activity to protect minors. Why did the US Supreme Court hold that certain provisions of the federal Communications Decency Act of 1996 were unconstitutional? The case is available at this link: caselaw.lp.findlaw.com/scripts/getcase.pl?court=us&vol=000&invol=96-511.",
-    "expected_answer": "The US Supreme Court held that the provisions were unconstitutional under the First Amendment because they were *vague* and *content based*. The Act did not specifically define “indecent” communications, or demonstrate that offensive material lacks any value under the three-part test for obscenity set forth in *Miller*.",
+    "expected_answer": "The US Supreme Court held that the provisions were unconstitutional under the First Amendment because they were *vague* and *content based*. The Act did not specifically define \u201cindecent\u201d communications, or demonstrate that offensive material lacks any value under the three-part test for obscenity set forth in *Miller*.",
     "agent_answer": "I cannot find sufficient information in the provided context to answer this question.",
     "relevant_passage_ids": [
       "3-3.3"
@@ -566,8 +566,8 @@
   },
   {
     "id": "3-3.1-q2",
-    "question": "Read *Smith v. Doe*, 538 U.S. 84 (2003). Why did the US Supreme Court hold that Alaska’s Megan’s Law is constitutional? The case is available at this link: <http://scholar.google.com/scholar_case?case=14879258853492825339&hl=en&as_sdt=2&as_vis=1&oi=scholarr>.",
-    "expected_answer": "In *Smith*, the US Supreme Court held that Alaska’s Megan’s Law statute was not *criminal*, but part of a civil regulatory scheme, and thus did not violate the prohibition against ex post facto laws.",
+    "question": "Read *Smith v. Doe*, 538 U.S. 84 (2003). Why did the US Supreme Court hold that Alaska\u2019s Megan\u2019s Law is constitutional? The case is available at this link: <http://scholar.google.com/scholar_case?case=14879258853492825339&hl=en&as_sdt=2&as_vis=1&oi=scholarr>.",
+    "expected_answer": "In *Smith*, the US Supreme Court held that Alaska\u2019s Megan\u2019s Law statute was not *criminal*, but part of a civil regulatory scheme, and thus did not violate the prohibition against ex post facto laws.",
     "agent_answer": "I cannot find sufficient information in the provided context to answer this question.",
     "relevant_passage_ids": [
       "3-3.1",
@@ -618,9 +618,9 @@
   },
   {
     "id": "4-4.3-q1",
-    "question": "Phillipa sees Fred picking up trash along the highway and decides she wants to frighten him. She drives a quarter of a mile ahead of Fred and parks her car. She then hides in the bushes and waits for Fred to show up. When Fred gets close enough, she jumps out of the bushes screaming. Frightened, Fred drops his trash bag and runs into the middle of the highway where he is struck by a vehicle and killed. Is Phillipa’s act the **legal cause** of Fred’s death? Why or why not?",
-    "expected_answer": "Phillipa’s act is the **factual** and **legal cause** of Fred’s death. Phillipa’s act in jumping out of the bushes screaming caused Fred to run onto the highway, so Phillipa’s act is the factual cause of Fred’s death. In addition, a reasonable person could *foresee* that frightening someone next to a major highway might result in them trying to escape onto the highway, where a vehicle traveling at a high rate of speed could hit them. Thus Phillipa’s act is *also* the legal cause of Fred’s death.",
-    "agent_answer": "1. Legal conclusion  \nPhillipa’s act is not the legal cause of Fred’s death.\n\n2. Statutory or doctrinal basis  \nLegal causation requires that the defendant’s conduct be a proximate cause of the harm, without an intervening superseding cause that breaks the chain of causation (Document 2: 4.3: Causation and Harm). Although Phillipa’s act of frightening Fred initiated the sequence of events, Fred’s decision to run into the highway and be struck by a vehicle constitutes an intervening act. The trier of fact must analyze whether this intervening act was foreseeable or whether it superseded Phillipa’s initial act, insulating her from criminal liability. Since Fred’s voluntary flight into the highway is an independent, intervening cause, Phillipa’s act does not legally cause Fred’s death.\n\n3. Qualifications  \nThis conclusion depends on the determination that Fred’s conduct was a superseding cause breaking the chain of causation. If the fright-induced flight was deemed a foreseeable consequence of Phillipa’s conduct, legal causation might be established. However, the context emphasizes fairness and the role of intervening superseding causes in insulating defendants from liability.\n\n4. Conflicts  \nNo conflicting provisions in the provided context affect this analysis. The Model Penal Code and common law principles of causation apply consistently here.",
+    "question": "Phillipa sees Fred picking up trash along the highway and decides she wants to frighten him. She drives a quarter of a mile ahead of Fred and parks her car. She then hides in the bushes and waits for Fred to show up. When Fred gets close enough, she jumps out of the bushes screaming. Frightened, Fred drops his trash bag and runs into the middle of the highway where he is struck by a vehicle and killed. Is Phillipa\u2019s act the **legal cause** of Fred\u2019s death? Why or why not?",
+    "expected_answer": "Phillipa\u2019s act is the **factual** and **legal cause** of Fred\u2019s death. Phillipa\u2019s act in jumping out of the bushes screaming caused Fred to run onto the highway, so Phillipa\u2019s act is the factual cause of Fred\u2019s death. In addition, a reasonable person could *foresee* that frightening someone next to a major highway might result in them trying to escape onto the highway, where a vehicle traveling at a high rate of speed could hit them. Thus Phillipa\u2019s act is *also* the legal cause of Fred\u2019s death.",
+    "agent_answer": "1. Legal conclusion  \nPhillipa\u2019s act is not the legal cause of Fred\u2019s death.\n\n2. Statutory or doctrinal basis  \nLegal causation requires that the defendant\u2019s conduct be a proximate cause of the harm, without an intervening superseding cause that breaks the chain of causation (Document 2: 4.3: Causation and Harm). Although Phillipa\u2019s act of frightening Fred initiated the sequence of events, Fred\u2019s decision to run into the highway and be struck by a vehicle constitutes an intervening act. The trier of fact must analyze whether this intervening act was foreseeable or whether it superseded Phillipa\u2019s initial act, insulating her from criminal liability. Since Fred\u2019s voluntary flight into the highway is an independent, intervening cause, Phillipa\u2019s act does not legally cause Fred\u2019s death.\n\n3. Qualifications  \nThis conclusion depends on the determination that Fred\u2019s conduct was a superseding cause breaking the chain of causation. If the fright-induced flight was deemed a foreseeable consequence of Phillipa\u2019s conduct, legal causation might be established. However, the context emphasizes fairness and the role of intervening superseding causes in insulating defendants from liability.\n\n4. Conflicts  \nNo conflicting provisions in the provided context affect this analysis. The Model Penal Code and common law principles of causation apply consistently here.",
     "relevant_passage_ids": [
       "4-4.3"
     ],
@@ -644,9 +644,9 @@
       "claims_supported_gpt": 0,
       "claims_supported_claude": 0
     },
-    "answer_relevance": 0.632,
+    "answer_relevance": 0.6812,
     "judge": {
-      "final_score": 0.2528,
+      "final_score": 0.3129,
       "individual_scores": {
         "gpt-4o-mini": 0.0,
         "claude-haiku": 0.0
@@ -670,7 +670,7 @@
   {
     "id": "4-4.3-q3",
     "question": "Read *Commonwealth v. Casanova*, 429 Mass. 293 (1999). In *Casanova*, the defendant shot the victim in 1991, paralyzing him. The defendant was convicted of assault with intent to murder and two firearms offenses. In 1996, the victim died. The defendant was thereafter indicted for his murder. Massachusetts had abolished the year and a day rule in 1980. Did the Massachusetts Supreme Judicial Court uphold the indictment, or did the court establish a new death timeline rule? The case is available at this link: <http://scholar.google.com/scholar_case?case=16055857562232849296&hl=en&as_sdt=2&as_vis=1&oi=scholarr>.",
-    "expected_answer": "The Massachusetts Supreme Judicial Court upheld the defendant’s indictment, and did not create a new death timeline rule.",
+    "expected_answer": "The Massachusetts Supreme Judicial Court upheld the defendant\u2019s indictment, and did not create a new death timeline rule.",
     "agent_answer": "1. Legal conclusion: The Massachusetts Supreme Judicial Court upheld the indictment against the defendant and declined to establish a new death timeline rule replacing the year and a day rule.\n\n2. Statutory or doctrinal basis: The court explicitly affirmed the denial of the motion to dismiss the murder charge and declined to adopt a rule providing a specific interval of time after injury beyond which a defendant cannot be held legally responsible for causing a death. This is stated in the court's decision: \"We affirm the denial of the motion to dismiss and decline to adopt a rule providing for a specific interval of time after injury beyond which a defendant cannot be held legally responsible for causing a death.\"\n\n3. Qualifications: The court considered the questions whether Massachusetts should judicially adopt a rule replacing the year and a day rule, and if so, whether a specific interval should be set, but ultimately rejected adopting such a rule. The abolition of the year and a day rule in 1980 is noted but did not lead to a new fixed temporal limitation.\n\n4. Conflicts: None identified in the provided context. The court's decision is clear in rejecting a fixed temporal limitation and upholding the indictment despite the five-year interval between injury and death.",
     "relevant_passage_ids": [
       "4-4.3",
@@ -696,9 +696,9 @@
       "claims_supported_gpt": 2,
       "claims_supported_claude": 2
     },
-    "answer_relevance": 0.5741,
+    "answer_relevance": 0.6288,
     "judge": {
-      "final_score": 0.8296,
+      "final_score": 0.8518,
       "individual_scores": {
         "gpt-4o-mini": 1.0,
         "claude-haiku": 1.0
@@ -721,9 +721,9 @@
   },
   {
     "id": "4-4.2-q1",
-    "question": "As Jordan is driving to school, she takes her eyes off the road for a moment and rummages through her purse for her phone. This causes her to run a stop sign. Jordan is thereafter pulled over by law enforcement and issued a traffic ticket. What is Jordan’s criminal intent in this case? Is Jordan criminally responsible for running the stop sign? Why or why not?",
-    "expected_answer": "Jordan is acting **recklessly** or **negligently**. If Jordan is an experienced driver, then she knows that there is a substantial risk of injury or harm when a driver takes his or her eyes off the road. If Jordan is not an experienced driver, she may not be aware of the risk, but she *should be* because she has been trained to drive and has passed exams and practical driving tests that emphasize this fact. Whether Jordan’s intent is reckless or negligent is probably irrelevant because most states make running a stop sign a **strict liability** offense with no criminal intent required.",
-    "agent_answer": "1. Legal conclusion  \nJordan lacks the criminal intent required for a criminal offense in running the stop sign and therefore is not criminally responsible for a crime, though she may be liable for a traffic violation.\n\n2. Statutory or doctrinal basis  \nDocument 2 explains that criminal intent (mens rea) is an essential element of most crimes and that crimes require a guilty mind or purposeful intent to be culpable. Traffic violations such as running a stop sign are typically regulatory or strict liability offenses that do not require criminal intent but rather a breach of a legal duty. The context does not explicitly state the mental state required for traffic offenses, but it distinguishes criminal intent from lesser forms of liability. Document 3 describes certain public order offenses requiring specific or reckless intent, implying that some offenses require intent while others do not. Since Jordan’s conduct was inattentive rather than purposeful or knowing, she lacks the mens rea for a criminal offense.\n\n3. Qualifications  \nJordan’s conduct may constitute a traffic infraction or violation subject to a ticket, which is a lesser offense not necessarily requiring criminal intent. The context does not specify the grading or mens rea for traffic violations but implies that not all unlawful acts are crimes requiring intent.\n\n4. Conflicts  \nNo conflict arises between the documents regarding criminal intent and liability for running a stop sign. The distinction between criminal intent and lesser forms of liability is consistent across the context.",
+    "question": "As Jordan is driving to school, she takes her eyes off the road for a moment and rummages through her purse for her phone. This causes her to run a stop sign. Jordan is thereafter pulled over by law enforcement and issued a traffic ticket. What is Jordan\u2019s criminal intent in this case? Is Jordan criminally responsible for running the stop sign? Why or why not?",
+    "expected_answer": "Jordan is acting **recklessly** or **negligently**. If Jordan is an experienced driver, then she knows that there is a substantial risk of injury or harm when a driver takes his or her eyes off the road. If Jordan is not an experienced driver, she may not be aware of the risk, but she *should be* because she has been trained to drive and has passed exams and practical driving tests that emphasize this fact. Whether Jordan\u2019s intent is reckless or negligent is probably irrelevant because most states make running a stop sign a **strict liability** offense with no criminal intent required.",
+    "agent_answer": "1. Legal conclusion  \nJordan lacks the criminal intent required for a criminal offense in running the stop sign and therefore is not criminally responsible for a crime, though she may be liable for a traffic violation.\n\n2. Statutory or doctrinal basis  \nDocument 2 explains that criminal intent (mens rea) is an essential element of most crimes and that crimes require a guilty mind or purposeful intent to be culpable. Traffic violations such as running a stop sign are typically regulatory or strict liability offenses that do not require criminal intent but rather a breach of a legal duty. The context does not explicitly state the mental state required for traffic offenses, but it distinguishes criminal intent from lesser forms of liability. Document 3 describes certain public order offenses requiring specific or reckless intent, implying that some offenses require intent while others do not. Since Jordan\u2019s conduct was inattentive rather than purposeful or knowing, she lacks the mens rea for a criminal offense.\n\n3. Qualifications  \nJordan\u2019s conduct may constitute a traffic infraction or violation subject to a ticket, which is a lesser offense not necessarily requiring criminal intent. The context does not specify the grading or mens rea for traffic violations but implies that not all unlawful acts are crimes requiring intent.\n\n4. Conflicts  \nNo conflict arises between the documents regarding criminal intent and liability for running a stop sign. The distinction between criminal intent and lesser forms of liability is consistent across the context.",
     "relevant_passage_ids": [
       "4-4.2"
     ],
@@ -738,7 +738,7 @@
       "hit_rate": 1.0
     },
     "faithfulness": {
-      "score": 0.1,
+      "score": 0.1201,
       "score_gpt": 0.2,
       "score_claude": 0.0,
       "agreement": 0.8,
@@ -747,9 +747,9 @@
       "claims_supported_gpt": 1,
       "claims_supported_claude": 0
     },
-    "answer_relevance": 0.6602,
+    "answer_relevance": 0.6772,
     "judge": {
-      "final_score": 0.3241,
+      "final_score": 0.3671,
       "individual_scores": {
         "gpt-4o-mini": 0.2,
         "claude-haiku": 0.0
@@ -774,7 +774,7 @@
     "id": "5-5.5-q1",
     "question": "Allen tackles Brett during a high school football game, and Brett is severely injured. Can Allen be criminally prosecuted for battery? Why or why not?",
     "expected_answer": "In most jurisdictions, Allen cannot be criminally prosecuted because Brett **consented** to being tackled by *choosing* to participate in football, a contact sport.",
-    "agent_answer": "1. Legal conclusion  \nAllen can be criminally prosecuted for battery if the tackle constitutes an unlawful touching with the requisite criminal intent and causes harm, notwithstanding the context of a high school football game.\n\n2. Statutory or doctrinal basis  \nBattery requires a criminal act element defined as an unlawful touching or physical contact (Document 1: Battery Act). The touching must be unlawful, meaning it is not privileged or consented to under the circumstances. The elements of battery include criminal act, criminal intent, attendant circumstance, causation, and harm (Document 1: Battery Elements). The defendant can be liable if the act causes harm to the victim. The context of a football game may affect whether the touching is lawful or consented to, but this is not explicitly addressed in the provided context.\n\n3. Qualifications  \nThe provided context does not specify exceptions or defenses related to sports or consent in contact sports. Therefore, whether Allen’s tackle is lawful or privileged depends on whether it falls within the scope of consented physical contact inherent in the sport. If the tackle was within the rules and customary conduct of the game, it may not be unlawful touching. If it was excessively violent or outside the scope of the game’s rules, it may constitute battery.\n\n4. Conflicts  \nNo conflicting provisions are presented in the provided context regarding battery in sports settings. The general battery elements apply.",
+    "agent_answer": "1. Legal conclusion  \nAllen can be criminally prosecuted for battery if the tackle constitutes an unlawful touching with the requisite criminal intent and causes harm, notwithstanding the context of a high school football game.\n\n2. Statutory or doctrinal basis  \nBattery requires a criminal act element defined as an unlawful touching or physical contact (Document 1: Battery Act). The touching must be unlawful, meaning it is not privileged or consented to under the circumstances. The elements of battery include criminal act, criminal intent, attendant circumstance, causation, and harm (Document 1: Battery Elements). The defendant can be liable if the act causes harm to the victim. The context of a football game may affect whether the touching is lawful or consented to, but this is not explicitly addressed in the provided context.\n\n3. Qualifications  \nThe provided context does not specify exceptions or defenses related to sports or consent in contact sports. Therefore, whether Allen\u2019s tackle is lawful or privileged depends on whether it falls within the scope of consented physical contact inherent in the sport. If the tackle was within the rules and customary conduct of the game, it may not be unlawful touching. If it was excessively violent or outside the scope of the game\u2019s rules, it may constitute battery.\n\n4. Conflicts  \nNo conflicting provisions are presented in the provided context regarding battery in sports settings. The general battery elements apply.",
     "relevant_passage_ids": [
       "5-5.5"
     ],
@@ -798,9 +798,9 @@
       "claims_supported_gpt": 0,
       "claims_supported_claude": 0
     },
-    "answer_relevance": 0.523,
+    "answer_relevance": 0.5817,
     "judge": {
-      "final_score": 0.2092,
+      "final_score": 0.2596,
       "individual_scores": {
         "gpt-4o-mini": 0.0,
         "claude-haiku": 0.0
@@ -823,9 +823,9 @@
   },
   {
     "id": "5-5.3-q1",
-    "question": "Melanie watches as Betty verbally abuses Colleen. Betty is a known bully who verbally abused Melanie in the past. Betty calls Colleen an expletive and gives her a firm shove. Melanie walks up behind Betty, removes a knife from her pocket, and plunges the knife into Betty’s back. Betty suffers internal injuries and later dies. Can Melanie use defense of others as a defense to criminal homicide? Why or why not?",
+    "question": "Melanie watches as Betty verbally abuses Colleen. Betty is a known bully who verbally abused Melanie in the past. Betty calls Colleen an expletive and gives her a firm shove. Melanie walks up behind Betty, removes a knife from her pocket, and plunges the knife into Betty\u2019s back. Betty suffers internal injuries and later dies. Can Melanie use defense of others as a defense to criminal homicide? Why or why not?",
     "expected_answer": "Melanie *cannot* use defense of others as a defense to criminal homicide. Melanie can defend Colleen only to the same extent she could defend *herself*. Nothing in the fact pattern indicates that Colleen could defend herself using **deadly force**. Thus Melanie could be successfully prosecuted for criminal homicide in this situation.",
-    "agent_answer": "1. Legal conclusion  \nMelanie cannot successfully use the defense of others as a defense to criminal homicide in this scenario.\n\n2. Statutory or doctrinal basis  \nThe context defines self-defense as a justification defense requiring, among other elements, that the defendant be confronted with an unprovoked attack (Document 1: 5.2: Self-Defense). The use of force in self-defense must be reasonable and proportionate to the threat. Deadly force is only justified under special requirements, typically when there is an imminent threat of death or serious bodily harm. The facts show Betty verbally abused Colleen and gave her a firm shove, but there is no indication that Colleen was under an unprovoked attack that threatened her with deadly force or serious bodily harm. Melanie’s use of deadly force (stabbing Betty in the back with a knife) was not in direct defense of Colleen against an imminent threat of deadly force. Therefore, the justification for self-defense or defense of others does not apply.\n\n3. Qualifications  \nThe context does not provide specific provisions on defense of others distinct from self-defense, but since defense of others is generally an extension of self-defense principles, the same elements and limitations apply. The absence of an imminent threat of deadly force to Colleen precludes justification for deadly force by Melanie.\n\n4. Conflicts  \nNo conflicting provisions in the provided context address defense of others differently or more permissively than self-defense. The statutory and doctrinal principles governing self-defense apply by analogy to defense of others.",
+    "agent_answer": "1. Legal conclusion  \nMelanie cannot successfully use the defense of others as a defense to criminal homicide in this scenario.\n\n2. Statutory or doctrinal basis  \nThe context defines self-defense as a justification defense requiring, among other elements, that the defendant be confronted with an unprovoked attack (Document 1: 5.2: Self-Defense). The use of force in self-defense must be reasonable and proportionate to the threat. Deadly force is only justified under special requirements, typically when there is an imminent threat of death or serious bodily harm. The facts show Betty verbally abused Colleen and gave her a firm shove, but there is no indication that Colleen was under an unprovoked attack that threatened her with deadly force or serious bodily harm. Melanie\u2019s use of deadly force (stabbing Betty in the back with a knife) was not in direct defense of Colleen against an imminent threat of deadly force. Therefore, the justification for self-defense or defense of others does not apply.\n\n3. Qualifications  \nThe context does not provide specific provisions on defense of others distinct from self-defense, but since defense of others is generally an extension of self-defense principles, the same elements and limitations apply. The absence of an imminent threat of deadly force to Colleen precludes justification for deadly force by Melanie.\n\n4. Conflicts  \nNo conflicting provisions in the provided context address defense of others differently or more permissively than self-defense. The statutory and doctrinal principles governing self-defense apply by analogy to defense of others.",
     "relevant_passage_ids": [
       "5-5.3"
     ],
@@ -849,9 +849,9 @@
       "claims_supported_gpt": 4,
       "claims_supported_claude": 4
     },
-    "answer_relevance": 0.5495,
+    "answer_relevance": 0.6051,
     "judge": {
-      "final_score": 0.8198,
+      "final_score": 0.8685,
       "individual_scores": {
         "gpt-4o-mini": 1.0,
         "claude-haiku": 1.0
@@ -874,9 +874,9 @@
   },
   {
     "id": "5-5.4-q1",
-    "question": "A fire sweeps through a residential neighborhood. Clark and Manny light their neighbor’s house on fire to create a firebreak. This prevents several houses from burning, including Clark’s and Manny’s. Do Clark and Manny have a defense to arson in this case? Why or why not?",
-    "expected_answer": "Clark and Manny can use **choice of evils** as a defense to arson in many jurisdictions. Clark and Manny were confronted with two harms: the loss of several homes or the loss of their neighbor’s home. Clark and Manny ranked the loss of one home lower than the loss of several homes, which is *objectively reasonable*. Thus Clark and Manny could be acquitted or have a reduction in sentence or severity of the offense, depending on the jurisdiction.",
-    "agent_answer": "1. Legal conclusion  \nClark and Manny have a defense to arson based on the necessity defense, provided they can satisfy the elements of that defense.\n\n2. Statutory or doctrinal basis  \nThe necessity defense is recognized as a common law defense and is available unless limited by statute, as explained in *Hoagland v. State*, where the court held that necessity may be asserted as a defense to criminal charges, including those involving harm to property. Although *Hoagland* involved DUI, the principle that necessity is a common law defense available to justify otherwise criminal acts applies generally. Lighting a fire to create a firebreak to prevent greater harm to property aligns with the justification rationale underlying necessity.\n\n3. Qualifications  \nClark and Manny must demonstrate that their act of lighting the neighbor’s house on fire was necessary to prevent a greater harm (the spread of the fire to multiple houses), that no reasonable legal alternative existed, and that the harm caused was not disproportionate to the harm avoided. The defense is fact-specific and requires proof of these elements.\n\n4. Conflicts  \nNo conflicting provisions in the provided context negate the availability of the necessity defense to arson. The arson elements require criminal intent and harm, but necessity can negate criminal intent by justifying the act.",
+    "question": "A fire sweeps through a residential neighborhood. Clark and Manny light their neighbor\u2019s house on fire to create a firebreak. This prevents several houses from burning, including Clark\u2019s and Manny\u2019s. Do Clark and Manny have a defense to arson in this case? Why or why not?",
+    "expected_answer": "Clark and Manny can use **choice of evils** as a defense to arson in many jurisdictions. Clark and Manny were confronted with two harms: the loss of several homes or the loss of their neighbor\u2019s home. Clark and Manny ranked the loss of one home lower than the loss of several homes, which is *objectively reasonable*. Thus Clark and Manny could be acquitted or have a reduction in sentence or severity of the offense, depending on the jurisdiction.",
+    "agent_answer": "1. Legal conclusion  \nClark and Manny have a defense to arson based on the necessity defense, provided they can satisfy the elements of that defense.\n\n2. Statutory or doctrinal basis  \nThe necessity defense is recognized as a common law defense and is available unless limited by statute, as explained in *Hoagland v. State*, where the court held that necessity may be asserted as a defense to criminal charges, including those involving harm to property. Although *Hoagland* involved DUI, the principle that necessity is a common law defense available to justify otherwise criminal acts applies generally. Lighting a fire to create a firebreak to prevent greater harm to property aligns with the justification rationale underlying necessity.\n\n3. Qualifications  \nClark and Manny must demonstrate that their act of lighting the neighbor\u2019s house on fire was necessary to prevent a greater harm (the spread of the fire to multiple houses), that no reasonable legal alternative existed, and that the harm caused was not disproportionate to the harm avoided. The defense is fact-specific and requires proof of these elements.\n\n4. Conflicts  \nNo conflicting provisions in the provided context negate the availability of the necessity defense to arson. The arson elements require criminal intent and harm, but necessity can negate criminal intent by justifying the act.",
     "relevant_passage_ids": [
       "5-5.4"
     ],
@@ -900,9 +900,9 @@
       "claims_supported_gpt": 0,
       "claims_supported_claude": 0
     },
-    "answer_relevance": 0.5742,
+    "answer_relevance": 0.6553,
     "judge": {
-      "final_score": 0.2297,
+      "final_score": 0.285,
       "individual_scores": {
         "gpt-4o-mini": 0.0,
         "claude-haiku": 0.0
@@ -927,7 +927,7 @@
     "id": "5-5.4-q2",
     "question": "Read *People v. Lovercamp*, 43 Cal. App. 3d 823 (1974). In *Lovercamp*, the defendants escaped from prison and were immediately captured. The defendants claimed they were forced to escape because a group of prisoners threatened them with sexual assault. The trial court did not allow the defendants to introduce evidence supporting the defense of **necessity**, and the defendants were convicted of escape. Did the Court of Appeals of California uphold their conviction for escape? The case is available at this link: <http://scholar.google.com/scholar_case?case=6496346791408865822&hl=en&as_sdt=2&as_vis=1&oi=scholarr>.",
     "expected_answer": "The Court of Appeals of California held that the defendants should have been allowed to present evidence in support of the **necessity** defense and were entitled to a retrial.",
-    "agent_answer": "1. Legal conclusion  \nYes, the Court of Appeals of California upheld the defendants' conviction for escape.\n\n2. Statutory or doctrinal basis  \nThe opinion in *People v. Lovercamp*, 43 Cal.App.3d 823 (1974), shows that although the defendants offered proof that they escaped due to threats of sexual assault by other inmates, the trial court excluded evidence supporting the defense of necessity. The appellate court affirmed the conviction, indicating that the necessity defense was not applicable to justify escape under the circumstances presented.\n\n3. Qualifications  \nThe defendants were inmates who escaped from the California Rehabilitation Center and were immediately captured nearby. Their fear for personal safety arose from threats by other inmates, but the court did not find this sufficient to excuse the escape under the necessity defense.\n\n4. Conflicts  \nNo conflicting provisions are indicated in the provided context. The appellate court’s decision reflects the application of the escape statute without allowance for the necessity defense in this factual scenario.",
+    "agent_answer": "1. Legal conclusion  \nYes, the Court of Appeals of California upheld the defendants' conviction for escape.\n\n2. Statutory or doctrinal basis  \nThe opinion in *People v. Lovercamp*, 43 Cal.App.3d 823 (1974), shows that although the defendants offered proof that they escaped due to threats of sexual assault by other inmates, the trial court excluded evidence supporting the defense of necessity. The appellate court affirmed the conviction, indicating that the necessity defense was not applicable to justify escape under the circumstances presented.\n\n3. Qualifications  \nThe defendants were inmates who escaped from the California Rehabilitation Center and were immediately captured nearby. Their fear for personal safety arose from threats by other inmates, but the court did not find this sufficient to excuse the escape under the necessity defense.\n\n4. Conflicts  \nNo conflicting provisions are indicated in the provided context. The appellate court\u2019s decision reflects the application of the escape statute without allowance for the necessity defense in this factual scenario.",
     "relevant_passage_ids": [
       "5-5.4",
       "5-5.4-q2-supp-1"
@@ -977,9 +977,9 @@
   },
   {
     "id": "5-5.4-q3",
-    "question": "Read *State v. Daoud*, 141 N.H. 142 (1996). In *Daoud*, the defendant was convicted of driving while under the influence. The defendant appealed because the trial court did not allow her to present evidence in support of the **duress** defense. Did the Supreme Court of New Hampshire uphold the defendant’s conviction? The case is available at this link: <http://scholar.google.com/scholar_case?case=18389754229002463686&hl=en&as_sdt=2&as_vis=1&oi=scholarr>.",
-    "expected_answer": "The Supreme Court of New Hampshire upheld the defendant’s conviction. The court recognized that a common-law defense of **duress** exists in some jurisdictions, but held that the facts in the defendant’s case did not indicate that she was under duress. The court stated the defendant had lawful alternatives to driving while under the influence, such as calling a taxi or a friend for a ride or walking.",
-    "agent_answer": "1. Legal conclusion: Yes, the Supreme Court of New Hampshire upheld the defendant’s conviction in *State v. Daoud*.\n\n2. Statutory or doctrinal basis: The court affirmed the conviction despite the defendant’s argument that she should have been permitted to introduce evidence of prior abuse and battered woman’s syndrome relevant to her duress defense. The Superior Court had ruled that the defendant could not present evidence of duress, and the Supreme Court affirmed that ruling.\n\n3. Qualifications: Although the conviction was affirmed, the Supreme Court remanded the case for resentencing.\n\n4. Conflicts: None indicated in the provided context.",
+    "question": "Read *State v. Daoud*, 141 N.H. 142 (1996). In *Daoud*, the defendant was convicted of driving while under the influence. The defendant appealed because the trial court did not allow her to present evidence in support of the **duress** defense. Did the Supreme Court of New Hampshire uphold the defendant\u2019s conviction? The case is available at this link: <http://scholar.google.com/scholar_case?case=18389754229002463686&hl=en&as_sdt=2&as_vis=1&oi=scholarr>.",
+    "expected_answer": "The Supreme Court of New Hampshire upheld the defendant\u2019s conviction. The court recognized that a common-law defense of **duress** exists in some jurisdictions, but held that the facts in the defendant\u2019s case did not indicate that she was under duress. The court stated the defendant had lawful alternatives to driving while under the influence, such as calling a taxi or a friend for a ride or walking.",
+    "agent_answer": "1. Legal conclusion: Yes, the Supreme Court of New Hampshire upheld the defendant\u2019s conviction in *State v. Daoud*.\n\n2. Statutory or doctrinal basis: The court affirmed the conviction despite the defendant\u2019s argument that she should have been permitted to introduce evidence of prior abuse and battered woman\u2019s syndrome relevant to her duress defense. The Superior Court had ruled that the defendant could not present evidence of duress, and the Supreme Court affirmed that ruling.\n\n3. Qualifications: Although the conviction was affirmed, the Supreme Court remanded the case for resentencing.\n\n4. Conflicts: None indicated in the provided context.",
     "relevant_passage_ids": [
       "5-5.4",
       "5-5.4-q3-supp-1"
@@ -995,7 +995,7 @@
       "hit_rate": 1.0
     },
     "faithfulness": {
-      "score": 0.2,
+      "score": 0.2452,
       "score_gpt": 0.2,
       "score_claude": 0.2,
       "agreement": 1.0,
@@ -1004,9 +1004,9 @@
       "claims_supported_gpt": 1,
       "claims_supported_claude": 1
     },
-    "answer_relevance": 0.656,
+    "answer_relevance": 0.6747,
     "judge": {
-      "final_score": 0.3824,
+      "final_score": 0.433,
       "individual_scores": {
         "gpt-4o-mini": 0.2,
         "claude-haiku": 0.2
@@ -1029,8 +1029,8 @@
   },
   {
     "id": "6-6.3-q3",
-    "question": "Read *Farley v. State*, 848 So.2d 393 (2003). In *Farley*, the government contacted the defendant, who had no criminal record, in a reverse sting operation with a mass e-mail soliciting individuals to purchase hard-core pornography. The defendant responded to the e-mail and was thereafter sent a questionnaire asking for his preferences. The defendant responded to the questionnaire, and an e-mail exchange ensued. In every communication by the government, protection from governmental interference was promised. Eventually, the defendant purchased child pornography and was arrested and prosecuted for this offense. The defendant moved to dismiss based on subjective and objective entrapment and the motion to dismiss was denied. The defendant was thereafter convicted. Did the Court of Appeal of Florida uphold the defendant’s conviction? The case is available at this link: www.lexisone.com/lx1/caselaw/freecaselaw?action=OCLGetCaseDetail&format=FULL&sourceID=bdjgjg&searchTerm= eiYL.TYda.aadj.ecCQ&searchFlag=y&l1loc=FCLOW.",
-    "expected_answer": "The Court of Appeal of Florida reversed the defendant’s conviction under both theories of entrapment. The court based its holding on the defendant’s lack of *predisposition* to commit the crime and the government’s assurance that there would be no governmental interference, which was *false* under the circumstances.",
+    "question": "Read *Farley v. State*, 848 So.2d 393 (2003). In *Farley*, the government contacted the defendant, who had no criminal record, in a reverse sting operation with a mass e-mail soliciting individuals to purchase hard-core pornography. The defendant responded to the e-mail and was thereafter sent a questionnaire asking for his preferences. The defendant responded to the questionnaire, and an e-mail exchange ensued. In every communication by the government, protection from governmental interference was promised. Eventually, the defendant purchased child pornography and was arrested and prosecuted for this offense. The defendant moved to dismiss based on subjective and objective entrapment and the motion to dismiss was denied. The defendant was thereafter convicted. Did the Court of Appeal of Florida uphold the defendant\u2019s conviction? The case is available at this link: www.lexisone.com/lx1/caselaw/freecaselaw?action=OCLGetCaseDetail&format=FULL&sourceID=bdjgjg&searchTerm= eiYL.TYda.aadj.ecCQ&searchFlag=y&l1loc=FCLOW.",
+    "expected_answer": "The Court of Appeal of Florida reversed the defendant\u2019s conviction under both theories of entrapment. The court based its holding on the defendant\u2019s lack of *predisposition* to commit the crime and the government\u2019s assurance that there would be no governmental interference, which was *false* under the circumstances.",
     "agent_answer": "I cannot find sufficient information in the provided context to answer this question.",
     "relevant_passage_ids": [
       "6-6.3"
@@ -1080,9 +1080,9 @@
   },
   {
     "id": "6-6.2-q1",
-    "question": "Burt, a sixteen-year-old, consumes alcohol for the first time at a party. Unaware of alcohol’s effect, Burt drinks too much, attempts to walk home, and is cited for being drunk in public. In Burt’s state, the juvenile court has concurrent jurisdiction over minors ages seventeen and under, with a waiver to adult court available at the judge’s discretion. Burt has not broken any laws before. Is it likely that the judge will **waive** juvenile court jurisdiction in this case and allow the adult criminal prosecution of Burt? Why or why not?",
-    "expected_answer": "It is unlikely that the judge will waive juvenile court jurisdiction in this case. Some of the criteria a judge will analyze when waiving jurisdiction are the nature of the offense, the sophistication it requires, the defendant’s criminal history, and the threat the defendant poses to public safety. This is Burt’s *first offense*, and it did not involve violence or require much sophistication. Thus the judge will probably allow Burt to be adjudicated in juvenile court.",
-    "agent_answer": "1. Legal conclusion  \nIt is unlikely that the judge will waive juvenile court jurisdiction to allow adult criminal prosecution of Burt.\n\n2. Statutory or doctrinal basis  \nThe infancy defense and juvenile court jurisdiction principles indicate that juvenile courts generally retain jurisdiction over defendants under the age of seventeen or eighteen, with waivers to adult court being discretionary and based on specific criteria. The primary purpose of juvenile court adjudication is rehabilitation, especially for first-time offenders. Burt is sixteen years old, has no prior offenses, and his conduct involves intoxication without criminal intent or harm. These factors weigh against waiver to adult court.\n\n3. Qualifications  \nThe waiver to adult court is at the judge’s discretion and may depend on factors such as the severity of the offense, prior record, and maturity of the defendant. Since Burt is a first-time offender and the offense is related to voluntary intoxication without aggravating circumstances, the judge is less likely to exercise waiver.\n\n4. Conflicts  \nNo conflicting provisions in the provided context affect this conclusion. The Model Penal Code and state juvenile court jurisdiction principles support retention of jurisdiction for minors under seventeen, especially for rehabilitation purposes.",
+    "question": "Burt, a sixteen-year-old, consumes alcohol for the first time at a party. Unaware of alcohol\u2019s effect, Burt drinks too much, attempts to walk home, and is cited for being drunk in public. In Burt\u2019s state, the juvenile court has concurrent jurisdiction over minors ages seventeen and under, with a waiver to adult court available at the judge\u2019s discretion. Burt has not broken any laws before. Is it likely that the judge will **waive** juvenile court jurisdiction in this case and allow the adult criminal prosecution of Burt? Why or why not?",
+    "expected_answer": "It is unlikely that the judge will waive juvenile court jurisdiction in this case. Some of the criteria a judge will analyze when waiving jurisdiction are the nature of the offense, the sophistication it requires, the defendant\u2019s criminal history, and the threat the defendant poses to public safety. This is Burt\u2019s *first offense*, and it did not involve violence or require much sophistication. Thus the judge will probably allow Burt to be adjudicated in juvenile court.",
+    "agent_answer": "1. Legal conclusion  \nIt is unlikely that the judge will waive juvenile court jurisdiction to allow adult criminal prosecution of Burt.\n\n2. Statutory or doctrinal basis  \nThe infancy defense and juvenile court jurisdiction principles indicate that juvenile courts generally retain jurisdiction over defendants under the age of seventeen or eighteen, with waivers to adult court being discretionary and based on specific criteria. The primary purpose of juvenile court adjudication is rehabilitation, especially for first-time offenders. Burt is sixteen years old, has no prior offenses, and his conduct involves intoxication without criminal intent or harm. These factors weigh against waiver to adult court.\n\n3. Qualifications  \nThe waiver to adult court is at the judge\u2019s discretion and may depend on factors such as the severity of the offense, prior record, and maturity of the defendant. Since Burt is a first-time offender and the offense is related to voluntary intoxication without aggravating circumstances, the judge is less likely to exercise waiver.\n\n4. Conflicts  \nNo conflicting provisions in the provided context affect this conclusion. The Model Penal Code and state juvenile court jurisdiction principles support retention of jurisdiction for minors under seventeen, especially for rehabilitation purposes.",
     "relevant_passage_ids": [
       "6-6.2"
     ],
@@ -1097,7 +1097,7 @@
       "hit_rate": 1.0
     },
     "faithfulness": {
-      "score": 0.6667,
+      "score": 0.7017,
       "score_gpt": 0.6667,
       "score_claude": 0.6667,
       "agreement": 1.0,
@@ -1106,9 +1106,9 @@
       "claims_supported_gpt": 6,
       "claims_supported_claude": 6
     },
-    "answer_relevance": 0.6743,
+    "answer_relevance": 0.7247,
     "judge": {
-      "final_score": 0.6697,
+      "final_score": 0.6904,
       "individual_scores": {
         "gpt-4o-mini": 0.6667,
         "claude-haiku": 0.6667
@@ -1132,7 +1132,7 @@
   {
     "id": "6-6.2-q2",
     "question": "Read *People v. Register*, 60 N.Y.2d 270 (1983). In *Register*, the defendant shot and killed an individual in a bar after drinking heavily for many hours. The defendant thereafter sought a jury instruction on the **intoxication** defense to a charge of depraved mind murder. The trial court refused, and the defendant was convicted. Did the Court of Appeals of the State of New York uphold the conviction? The case is available at this link: <http://scholar.google.com/scholar_case?case=9019321014077082981&hl=en&as_sdt=2&as_vis=1&oi=>.",
-    "expected_answer": "The Court of Appeals of the State of New York upheld the defendant’s conviction and the trial court’s refusal to instruct the jury on intoxication. The court based its holding on the depraved mind murder statute, which requires **reckless** criminal intent, and the intoxication defense statute, which *disallows* evidence of intoxication as a defense to a reckless intent crime.",
+    "expected_answer": "The Court of Appeals of the State of New York upheld the defendant\u2019s conviction and the trial court\u2019s refusal to instruct the jury on intoxication. The court based its holding on the depraved mind murder statute, which requires **reckless** criminal intent, and the intoxication defense statute, which *disallows* evidence of intoxication as a defense to a reckless intent crime.",
     "agent_answer": "1. Legal conclusion  \nYes, the Court of Appeals of the State of New York upheld the conviction.\n\n2. Statutory or doctrinal basis  \nThe court affirmed the judgment after a jury trial convicting the defendant of second-degree depraved mind murder and first-degree assault. It held that the evidence supported the conviction and that the trial court's refusal to instruct the jury on intoxication as a defense to depraved mind murder was correct. The court also found no abuse of discretion in limiting the defendant's expert testimony on the effect of alcohol on his conduct. (People v. Register, 60 N.Y.2d 270, 1983)\n\n3. Qualifications  \nNone noted in the provided context.\n\n4. Conflicts  \nNone indicated in the provided context.",
     "relevant_passage_ids": [
       "6-6.2",
@@ -1149,7 +1149,7 @@
       "hit_rate": 1.0
     },
     "faithfulness": {
-      "score": 0.5,
+      "score": 0.5651,
       "score_gpt": 0.5,
       "score_claude": 0.5,
       "agreement": 1.0,
@@ -1158,9 +1158,9 @@
       "claims_supported_gpt": 2,
       "claims_supported_claude": 2
     },
-    "answer_relevance": 0.5839,
+    "answer_relevance": 0.635,
     "judge": {
-      "final_score": 0.5336,
+      "final_score": 0.5974,
       "individual_scores": {
         "gpt-4o-mini": 0.5,
         "claude-haiku": 0.5
@@ -1183,9 +1183,9 @@
   },
   {
     "id": "7-7.1-q3",
-    "question": "Read *Joubert v. State*, 235 SW 3d 729 (2007). In *Joubert*, the defendant was convicted and sentenced to death based on his participation in an armed robbery that resulted in the death of a police officer and employee. The jury convicted the defendant after hearing testimony from his accomplice and reviewing a video of the defendant confessing to the offense. The defendant appealed the conviction because in Texas, accomplice testimony must be corroborated by other evidence, and the defendant claimed that the other corroborating evidence was lacking in this case. Did the Court of Criminal Appeals of Texas uphold the defendant’s conviction? Why or why not? The case is available at this link: <http://scholar.google.com/scholar_case?case=10119211983865864217&hl=en&as_sdt=2&as_vis=1&oi=scholarr>.",
-    "expected_answer": "The Court of Criminal Appeals of Texas upheld the defendant’s conviction because the video of the defendant’s confession corroborated the accomplice’s testimony. The court specifically held that corroborating evidence does not have to be enough to prove beyond a reasonable doubt that the defendant committed the crime; it only has to “tend to connect him to the offense.”*Joubert v. State*, 235 SW3d 729, 731 (2007), accessed January 22, 2011, <http://scholar.google.com/scholar_case?case=10119211983865864217&hl=en&as_sdt=2&as_vis=1&oi=scholarr>.",
-    "agent_answer": "1. Legal conclusion: The Court of Criminal Appeals of Texas upheld the defendant’s conviction in *Joubert v. State*.\n\n2. Statutory or doctrinal basis: The court reviewed the appellant’s seven points of error and found them to be without merit, affirming the trial court’s judgment and sentence of death. Although the appellant challenged the sufficiency of corroborating evidence for the accomplice testimony, the court implicitly found that the evidence, including the accomplice’s testimony and the defendant’s confession, was sufficient to support the conviction.\n\n3. Qualifications: The context does not provide detailed analysis of the corroboration requirement or the court’s reasoning on that specific issue, but the ultimate affirmance indicates that the court concluded the corroboration requirement was satisfied.\n\n4. Conflicts: None indicated in the provided context.",
+    "question": "Read *Joubert v. State*, 235 SW 3d 729 (2007). In *Joubert*, the defendant was convicted and sentenced to death based on his participation in an armed robbery that resulted in the death of a police officer and employee. The jury convicted the defendant after hearing testimony from his accomplice and reviewing a video of the defendant confessing to the offense. The defendant appealed the conviction because in Texas, accomplice testimony must be corroborated by other evidence, and the defendant claimed that the other corroborating evidence was lacking in this case. Did the Court of Criminal Appeals of Texas uphold the defendant\u2019s conviction? Why or why not? The case is available at this link: <http://scholar.google.com/scholar_case?case=10119211983865864217&hl=en&as_sdt=2&as_vis=1&oi=scholarr>.",
+    "expected_answer": "The Court of Criminal Appeals of Texas upheld the defendant\u2019s conviction because the video of the defendant\u2019s confession corroborated the accomplice\u2019s testimony. The court specifically held that corroborating evidence does not have to be enough to prove beyond a reasonable doubt that the defendant committed the crime; it only has to \u201ctend to connect him to the offense.\u201d*Joubert v. State*, 235 SW3d 729, 731 (2007), accessed January 22, 2011, <http://scholar.google.com/scholar_case?case=10119211983865864217&hl=en&as_sdt=2&as_vis=1&oi=scholarr>.",
+    "agent_answer": "1. Legal conclusion: The Court of Criminal Appeals of Texas upheld the defendant\u2019s conviction in *Joubert v. State*.\n\n2. Statutory or doctrinal basis: The court reviewed the appellant\u2019s seven points of error and found them to be without merit, affirming the trial court\u2019s judgment and sentence of death. Although the appellant challenged the sufficiency of corroborating evidence for the accomplice testimony, the court implicitly found that the evidence, including the accomplice\u2019s testimony and the defendant\u2019s confession, was sufficient to support the conviction.\n\n3. Qualifications: The context does not provide detailed analysis of the corroboration requirement or the court\u2019s reasoning on that specific issue, but the ultimate affirmance indicates that the court concluded the corroboration requirement was satisfied.\n\n4. Conflicts: None indicated in the provided context.",
     "relevant_passage_ids": [
       "7-7.1",
       "7-7.1-q3-supp-1"
@@ -1201,7 +1201,7 @@
       "hit_rate": 1.0
     },
     "faithfulness": {
-      "score": 0.25,
+      "score": 0.306,
       "score_gpt": 0.25,
       "score_claude": 0.25,
       "agreement": 1.0,
@@ -1210,9 +1210,9 @@
       "claims_supported_gpt": 1,
       "claims_supported_claude": 1
     },
-    "answer_relevance": 0.5971,
+    "answer_relevance": 0.6675,
     "judge": {
-      "final_score": 0.3888,
+      "final_score": 0.4353,
       "individual_scores": {
         "gpt-4o-mini": 0.25,
         "claude-haiku": 0.25
@@ -1236,8 +1236,8 @@
   {
     "id": "7-7.2-q1",
     "question": "Brad, the president and CEO of ABC Corporation, recklessly hits and kills a pedestrian as he is driving home from work. Could ABC Corporation be held vicariously liable for criminal homicide? Why or why not?",
-    "expected_answer": "ABC Corporation probably is not vicariously liable for criminal homicide because Brad’s reckless conduct did not occur during the scope of employment; the criminal homicide occurred as Brad was *driving home*. However, if Brad were required to work while driving home (by making work-related phone calls, for example), vicarious liability could be present in this instance.",
-    "agent_answer": "1. Legal conclusion  \nABC Corporation could not be held vicariously liable for criminal homicide based on Brad’s reckless killing of a pedestrian while driving home from work.\n\n2. Statutory or doctrinal basis  \nVicarious liability for a corporation arises only when the criminal act is committed by an agent or employee within the scope of their employment or agency relationship with the corporation (Document 1, Corporate Liability). The criminal responsibility transfers from the agent or employee to the corporation based on this special relationship. Brad’s act occurred while driving home from work, which is outside the scope of his employment duties and agency relationship with ABC Corporation.\n\n3. Qualifications  \nIf Brad had committed the criminal act during the course of his employment or within the scope of his corporate duties, vicarious liability could attach to ABC Corporation. However, since the act occurred after work hours and was unrelated to his corporate role, the corporation is not vicariously liable.\n\n4. Conflicts  \nNo conflicting provisions in the provided context affect this conclusion. The principle that vicarious liability requires the act to be within the employment relationship is controlling.",
+    "expected_answer": "ABC Corporation probably is not vicariously liable for criminal homicide because Brad\u2019s reckless conduct did not occur during the scope of employment; the criminal homicide occurred as Brad was *driving home*. However, if Brad were required to work while driving home (by making work-related phone calls, for example), vicarious liability could be present in this instance.",
+    "agent_answer": "1. Legal conclusion  \nABC Corporation could not be held vicariously liable for criminal homicide based on Brad\u2019s reckless killing of a pedestrian while driving home from work.\n\n2. Statutory or doctrinal basis  \nVicarious liability for a corporation arises only when the criminal act is committed by an agent or employee within the scope of their employment or agency relationship with the corporation (Document 1, Corporate Liability). The criminal responsibility transfers from the agent or employee to the corporation based on this special relationship. Brad\u2019s act occurred while driving home from work, which is outside the scope of his employment duties and agency relationship with ABC Corporation.\n\n3. Qualifications  \nIf Brad had committed the criminal act during the course of his employment or within the scope of his corporate duties, vicarious liability could attach to ABC Corporation. However, since the act occurred after work hours and was unrelated to his corporate role, the corporation is not vicariously liable.\n\n4. Conflicts  \nNo conflicting provisions in the provided context affect this conclusion. The principle that vicarious liability requires the act to be within the employment relationship is controlling.",
     "relevant_passage_ids": [
       "7-7.2"
     ],
@@ -1252,7 +1252,7 @@
       "hit_rate": 1.0
     },
     "faithfulness": {
-      "score": 0.6667,
+      "score": 0.6856,
       "score_gpt": 0.6667,
       "score_claude": 0.6667,
       "agreement": 1.0,
@@ -1261,9 +1261,9 @@
       "claims_supported_gpt": 2,
       "claims_supported_claude": 2
     },
-    "answer_relevance": 0.5808,
+    "answer_relevance": 0.6678,
     "judge": {
-      "final_score": 0.6323,
+      "final_score": 0.675,
       "individual_scores": {
         "gpt-4o-mini": 0.6667,
         "claude-haiku": 0.6667
@@ -1286,9 +1286,9 @@
   },
   {
     "id": "7-7.3-q1",
-    "question": "Cory watches as her sister Amanda breaks into a parking meter across the street and starts scooping change into her purse. Amanda thereafter runs into a nearby alley and hides behind a dumpster. A police officer arrives on the scene and asks Cory if she witnessed the crime. Cory responds, “No, I didn’t notice anything.” The police officer does a search, does not find Amanda, and leaves. Has Cory committed a crime? If your answer is yes, which crime has Cory committed, and does Cory have a possible defense?",
-    "expected_answer": "Cory has probably committed the crime of **accessory** in most jurisdictions. Cory’s response to the police officer’s question was false, and it appears to be made with the intent to help Amanda escape detection. Note that Cory renders assistance using words, but words are enough to constitute the criminal act element required for accessory. Cory is not an accomplice to Amanda’s crime because she did not act to assist Amanda with the parking meter destruction and theft; she only acted *after* the crime was committed. Her failure to report the crime is probably not an “omission to act” because it is extremely unlikely that a statute exists requiring individuals to report theft committed in their presence, creating a **legal duty to act**. A potential defense to accessory would be the *family* relationship, which creates an exemption to accessory in some jurisdictions.",
-    "agent_answer": "1. Legal conclusion  \nCory has not committed a crime based on the facts provided.\n\n2. Statutory or doctrinal basis  \nAccording to Document 3 (4.1: Criminal Elements), a crime generally requires a criminal act (actus reus) and criminal intent (mens rea), along with concurrence of the two. An omission to act can be criminal only in specific situations where there is a legal duty to act. The context does not indicate that Cory had a legal duty to intervene or to truthfully report Amanda’s crime to the police officer. Simply witnessing a crime and denying knowledge to the police does not constitute a criminal act unless there is a statutory duty to report or assist, which is not mentioned in the provided context.\n\n3. Qualifications  \nIf there were a statute imposing a duty to report or assist, failure to do so could constitute a crime, but no such statute or duty is referenced in the provided context. Additionally, the context does not discuss crimes related to false statements to police or obstruction of justice in this scenario.\n\n4. Conflicts  \nNo conflicting provisions are present in the provided context regarding Cory’s liability. The analysis is limited to the elements of crime and parties to crime, none of which impose liability on a mere witness who denies knowledge without a legal duty to act.",
+    "question": "Cory watches as her sister Amanda breaks into a parking meter across the street and starts scooping change into her purse. Amanda thereafter runs into a nearby alley and hides behind a dumpster. A police officer arrives on the scene and asks Cory if she witnessed the crime. Cory responds, \u201cNo, I didn\u2019t notice anything.\u201d The police officer does a search, does not find Amanda, and leaves. Has Cory committed a crime? If your answer is yes, which crime has Cory committed, and does Cory have a possible defense?",
+    "expected_answer": "Cory has probably committed the crime of **accessory** in most jurisdictions. Cory\u2019s response to the police officer\u2019s question was false, and it appears to be made with the intent to help Amanda escape detection. Note that Cory renders assistance using words, but words are enough to constitute the criminal act element required for accessory. Cory is not an accomplice to Amanda\u2019s crime because she did not act to assist Amanda with the parking meter destruction and theft; she only acted *after* the crime was committed. Her failure to report the crime is probably not an \u201comission to act\u201d because it is extremely unlikely that a statute exists requiring individuals to report theft committed in their presence, creating a **legal duty to act**. A potential defense to accessory would be the *family* relationship, which creates an exemption to accessory in some jurisdictions.",
+    "agent_answer": "1. Legal conclusion  \nCory has not committed a crime based on the facts provided.\n\n2. Statutory or doctrinal basis  \nAccording to Document 3 (4.1: Criminal Elements), a crime generally requires a criminal act (actus reus) and criminal intent (mens rea), along with concurrence of the two. An omission to act can be criminal only in specific situations where there is a legal duty to act. The context does not indicate that Cory had a legal duty to intervene or to truthfully report Amanda\u2019s crime to the police officer. Simply witnessing a crime and denying knowledge to the police does not constitute a criminal act unless there is a statutory duty to report or assist, which is not mentioned in the provided context.\n\n3. Qualifications  \nIf there were a statute imposing a duty to report or assist, failure to do so could constitute a crime, but no such statute or duty is referenced in the provided context. Additionally, the context does not discuss crimes related to false statements to police or obstruction of justice in this scenario.\n\n4. Conflicts  \nNo conflicting provisions are present in the provided context regarding Cory\u2019s liability. The analysis is limited to the elements of crime and parties to crime, none of which impose liability on a mere witness who denies knowledge without a legal duty to act.",
     "relevant_passage_ids": [
       "7-7.3"
     ],
@@ -1303,7 +1303,7 @@
       "hit_rate": 0.0
     },
     "faithfulness": {
-      "score": 0.1,
+      "score": 0.1203,
       "score_gpt": 0.2,
       "score_claude": 0.0,
       "agreement": 0.8,
@@ -1312,9 +1312,9 @@
       "claims_supported_gpt": 2,
       "claims_supported_claude": 0
     },
-    "answer_relevance": 0.5083,
+    "answer_relevance": 0.5593,
     "judge": {
-      "final_score": 0.2633,
+      "final_score": 0.3055,
       "individual_scores": {
         "gpt-4o-mini": 0.2,
         "claude-haiku": 0.0
@@ -1338,7 +1338,7 @@
   {
     "id": "8-8.3-q1",
     "question": "Nancy asks Jennifer to help her counterfeit twenty-dollar bills. Jennifer refuses. Has a crime been committed in this situation?",
-    "expected_answer": "Nancy has committed **solicitation** to commit counterfeiting, which is criminal if Nancy’s jurisdiction criminalizes the solicitation to commit this type of offense. It is of no import that Jennifer refuses Nancy’s request because the criminal act element of solicitation is requesting another to commit a crime, not a mutual understanding or agreement (like conspiracy).",
+    "expected_answer": "Nancy has committed **solicitation** to commit counterfeiting, which is criminal if Nancy\u2019s jurisdiction criminalizes the solicitation to commit this type of offense. It is of no import that Jennifer refuses Nancy\u2019s request because the criminal act element of solicitation is requesting another to commit a crime, not a mutual understanding or agreement (like conspiracy).",
     "agent_answer": "1. Legal conclusion  \nNo crime has been committed by Jennifer because she refused to participate in the criminal act of counterfeiting.\n\n2. Statutory or doctrinal basis  \nThe context explains accomplice liability requires participation with a common criminal purpose or design (Document 3). Jennifer's refusal to assist Nancy means she did not engage in the criminal act element or share the criminal intent necessary for accomplice liability.\n\n3. Qualifications  \nNone indicated in the context. The refusal to participate negates accomplice liability.\n\n4. Conflicts  \nNone identified in the provided context.",
     "relevant_passage_ids": [
       "8-8.3"
@@ -1363,9 +1363,9 @@
       "claims_supported_gpt": 0,
       "claims_supported_claude": 0
     },
-    "answer_relevance": 0.6201,
+    "answer_relevance": 0.6457,
     "judge": {
-      "final_score": 0.248,
+      "final_score": 0.2872,
       "individual_scores": {
         "gpt-4o-mini": 0.0,
         "claude-haiku": 0.0
@@ -1388,9 +1388,9 @@
   },
   {
     "id": "8-8.2-q2",
-    "question": "Read *State v. Blackmer*, 816 A.2d 1014 (2003). In *Blackmer*, the defendant appealed his conviction for conspiracy to possess marijuana with intent to sell because the individual with whom he was conspiring was a police decoy who did not have conspiracy intent. Did the Supreme Court of New Hampshire uphold the defendant’s conviction? The case is available at this link: [http://scholar.google.com/scholar\\_case?case=10340846332108789820&q= State+v.+Blackmer&hl=en&as\\_sdt=2,5](http://scholar.google.com/scholar_case?case=10340846332108789820&q=State+v.+Blackmer&hl=en&as_sdt=2,5).",
-    "expected_answer": "The New Hampshire Supreme Court upheld the defendant’s conviction because under New Hampshire law it is not necessary for *both* parties to the conspiracy to possess conspiracy criminal intent.",
-    "agent_answer": "1. Legal conclusion: The Supreme Court of New Hampshire upheld the defendant’s conviction for conspiracy to possess marijuana with intent to sell in *State v. Blackmer*.\n\n2. Statutory or doctrinal basis: The court affirmed the conviction despite the fact that the individual with whom the defendant conspired was a police decoy lacking conspiracy intent. This is evidenced by the court’s decision to affirm the conviction as stated in the opinion summary: “We affirm.”\n\n3. Qualifications: The context does not provide further details on the reasoning or any exceptions applied by the court in this affirmation.\n\n4. Conflicts: None identified within the provided context.",
+    "question": "Read *State v. Blackmer*, 816 A.2d 1014 (2003). In *Blackmer*, the defendant appealed his conviction for conspiracy to possess marijuana with intent to sell because the individual with whom he was conspiring was a police decoy who did not have conspiracy intent. Did the Supreme Court of New Hampshire uphold the defendant\u2019s conviction? The case is available at this link: [http://scholar.google.com/scholar\\_case?case=10340846332108789820&q= State+v.+Blackmer&hl=en&as\\_sdt=2,5](http://scholar.google.com/scholar_case?case=10340846332108789820&q=State+v.+Blackmer&hl=en&as_sdt=2,5).",
+    "expected_answer": "The New Hampshire Supreme Court upheld the defendant\u2019s conviction because under New Hampshire law it is not necessary for *both* parties to the conspiracy to possess conspiracy criminal intent.",
+    "agent_answer": "1. Legal conclusion: The Supreme Court of New Hampshire upheld the defendant\u2019s conviction for conspiracy to possess marijuana with intent to sell in *State v. Blackmer*.\n\n2. Statutory or doctrinal basis: The court affirmed the conviction despite the fact that the individual with whom the defendant conspired was a police decoy lacking conspiracy intent. This is evidenced by the court\u2019s decision to affirm the conviction as stated in the opinion summary: \u201cWe affirm.\u201d\n\n3. Qualifications: The context does not provide further details on the reasoning or any exceptions applied by the court in this affirmation.\n\n4. Conflicts: None identified within the provided context.",
     "relevant_passage_ids": [
       "8-8.2",
       "8-8.2-q2-supp-1"
@@ -1406,7 +1406,7 @@
       "hit_rate": 1.0
     },
     "faithfulness": {
-      "score": 0.5,
+      "score": 0.5653,
       "score_gpt": 0.5,
       "score_claude": 0.5,
       "agreement": 1.0,
@@ -1415,9 +1415,9 @@
       "claims_supported_gpt": 1,
       "claims_supported_claude": 1
     },
-    "answer_relevance": 0.5447,
+    "answer_relevance": 0.6144,
     "judge": {
-      "final_score": 0.5179,
+      "final_score": 0.5644,
       "individual_scores": {
         "gpt-4o-mini": 0.5,
         "claude-haiku": 0.5
@@ -1440,9 +1440,9 @@
   },
   {
     "id": "8-8.2-q3",
-    "question": "Read *Commonwealth v. Roux*, 350 A.2d 867 (1976). In *Roux*, the defendant was convicted of murder and conspiracy to commit murder after a barroom brawl resulted in a victim’s death. The defendant and others beat the victim with their fists. Thereafter the criminal actor took a knife from a defendant who then walked away. The criminal actor stabbed the victim, who died as a result. The defendant who walked away claimed that he “abandoned” the conspiracy by leaving before the stabbing, and this should be an affirmative defense to the conspiracy and murder charges. Did the Supreme Court of Pennsylvania uphold the defendant’s convictions? The case is available at this link: <http://scholar.google.com/scholar_case?case=1692554406000599210&hl=en&as_sdt=2&as_vis=1&oi=scholarr>.",
-    "expected_answer": "The Supreme Court of Pennsylvania upheld the defendant’s convictions, determining that it was *too late* for him to abandon the conspiracy, and also that the evidence indicated he was holding the knife “at the ready” for the criminal actor to grab and use.",
-    "agent_answer": "1. Legal conclusion: The Supreme Court of Pennsylvania upheld the defendant’s convictions for conspiracy and murder, rejecting the claim that the defendant’s departure before the stabbing constituted an abandonment defense.\n\n2. Statutory or doctrinal basis: In *Commonwealth v. Roux*, 350 A.2d 867 (1976), the Court held that the evidence was sufficient to support the conspiracy conviction and, consequently, the murder conviction that resulted therefrom. The Court applied the standard that on appeal, the evidence must be viewed in the light most favorable to the Commonwealth to determine if a factfinder could reasonably find all elements of the crime beyond a reasonable doubt. The Court did not accept the defendant’s argument that leaving before the stabbing constituted abandonment sufficient to negate conspiracy liability.\n\n3. Qualifications: The opinion does not indicate any exception or acceptance of abandonment as a defense under the facts presented. The defendant’s leaving the scene did not absolve him of conspiracy liability because the criminal act (stabbing) was a foreseeable and probable consequence of the conspiracy.\n\n4. Conflicts: None indicated in the provided context. The Court’s ruling is consistent with the principle that conspiracy liability extends to acts committed in furtherance of the conspiracy, even if a conspirator withdraws after the conspiracy has been formed but before the substantive offense is completed.",
+    "question": "Read *Commonwealth v. Roux*, 350 A.2d 867 (1976). In *Roux*, the defendant was convicted of murder and conspiracy to commit murder after a barroom brawl resulted in a victim\u2019s death. The defendant and others beat the victim with their fists. Thereafter the criminal actor took a knife from a defendant who then walked away. The criminal actor stabbed the victim, who died as a result. The defendant who walked away claimed that he \u201cabandoned\u201d the conspiracy by leaving before the stabbing, and this should be an affirmative defense to the conspiracy and murder charges. Did the Supreme Court of Pennsylvania uphold the defendant\u2019s convictions? The case is available at this link: <http://scholar.google.com/scholar_case?case=1692554406000599210&hl=en&as_sdt=2&as_vis=1&oi=scholarr>.",
+    "expected_answer": "The Supreme Court of Pennsylvania upheld the defendant\u2019s convictions, determining that it was *too late* for him to abandon the conspiracy, and also that the evidence indicated he was holding the knife \u201cat the ready\u201d for the criminal actor to grab and use.",
+    "agent_answer": "1. Legal conclusion: The Supreme Court of Pennsylvania upheld the defendant\u2019s convictions for conspiracy and murder, rejecting the claim that the defendant\u2019s departure before the stabbing constituted an abandonment defense.\n\n2. Statutory or doctrinal basis: In *Commonwealth v. Roux*, 350 A.2d 867 (1976), the Court held that the evidence was sufficient to support the conspiracy conviction and, consequently, the murder conviction that resulted therefrom. The Court applied the standard that on appeal, the evidence must be viewed in the light most favorable to the Commonwealth to determine if a factfinder could reasonably find all elements of the crime beyond a reasonable doubt. The Court did not accept the defendant\u2019s argument that leaving before the stabbing constituted abandonment sufficient to negate conspiracy liability.\n\n3. Qualifications: The opinion does not indicate any exception or acceptance of abandonment as a defense under the facts presented. The defendant\u2019s leaving the scene did not absolve him of conspiracy liability because the criminal act (stabbing) was a foreseeable and probable consequence of the conspiracy.\n\n4. Conflicts: None indicated in the provided context. The Court\u2019s ruling is consistent with the principle that conspiracy liability extends to acts committed in furtherance of the conspiracy, even if a conspirator withdraws after the conspiracy has been formed but before the substantive offense is completed.",
     "relevant_passage_ids": [
       "8-8.2",
       "8-8.2-q3-supp-1"
@@ -1458,7 +1458,7 @@
       "hit_rate": 1.0
     },
     "faithfulness": {
-      "score": 0.6667,
+      "score": 0.7128,
       "score_gpt": 0.6667,
       "score_claude": 0.6667,
       "agreement": 1.0,
@@ -1467,9 +1467,9 @@
       "claims_supported_gpt": 2,
       "claims_supported_claude": 2
     },
-    "answer_relevance": 0.618,
+    "answer_relevance": 0.667,
     "judge": {
-      "final_score": 0.6472,
+      "final_score": 0.6888,
       "individual_scores": {
         "gpt-4o-mini": 0.6667,
         "claude-haiku": 0.6667
@@ -1492,9 +1492,9 @@
   },
   {
     "id": "9-9.3-q2",
-    "question": "Read *State v. West*, 844 S.W.2d 144 (1992). Did the Supreme Court of Tennessee hold that a defendant’s failure to report a shooting to the police for over an hour and concealment of the murder weapon constitutes sufficient evidence to prove premeditated murder? The case is available at this link: <http://scholar.google.com/scholar_case?case=3481778471457660977&hl=en&as_sdt=2002&as_vis=1>.",
-    "expected_answer": "The Tennessee Supreme Court held that the defendant’s failure to make a timely police report and concealment of the murder weapon did not prove that the murder was premeditated. The Court stated the following:\n\n  One who has recently killed another person recklessly, passionately, or even negligently may be extremely hesitant to reveal the details of the crime, and yet not be guilty of first-degree murder…One who kills another in a passionate rage may dispose of the weapon when reason returns just as readily as the cool, dispassionate killer.*State v. West*, 844 S.W. 2d 144, 147 (1992), accessed July 30, 2010, <http://scholar.google.com/scholar_case?case=3481778471457660977&hl=en&as_sdt=2002&as_vis=1>.",
-    "agent_answer": "1. Legal conclusion  \nThe Supreme Court of Tennessee in *State v. West*, 844 S.W.2d 144 (1992), did not hold that the defendant’s failure to report the shooting for over an hour and concealment of the murder weapon alone constitute sufficient evidence to prove premeditated (first-degree) murder. Instead, the Court found the proof insufficient to sustain a conviction for first-degree murder and reduced the conviction to second-degree murder.\n\n2. Statutory or doctrinal basis  \nThe Court explicitly stated that the sufficiency of the evidence to sustain the conviction for first-degree murder was seriously in doubt and that the proof was lacking, necessitating reduction of the conviction to second-degree murder. The opinion mentions that the appeal raised issues including the admissibility of character evidence and the propriety of jury instructions on inferences from concealment of evidence, but ultimately the Court found the evidence insufficient to prove premeditation required for first-degree murder.\n\n3. Qualifications  \nThe Court’s decision was based on the totality of the evidence presented, not solely on the defendant’s failure to report or concealment of the weapon. The opinion implies that these factors alone do not establish the element of premeditation necessary for first-degree murder.\n\n4. Conflicts  \nNo conflicting provisions or holdings are indicated in the provided context. The Court’s reduction of the conviction reflects a strict standard for sufficiency of evidence in proving premeditated murder.",
+    "question": "Read *State v. West*, 844 S.W.2d 144 (1992). Did the Supreme Court of Tennessee hold that a defendant\u2019s failure to report a shooting to the police for over an hour and concealment of the murder weapon constitutes sufficient evidence to prove premeditated murder? The case is available at this link: <http://scholar.google.com/scholar_case?case=3481778471457660977&hl=en&as_sdt=2002&as_vis=1>.",
+    "expected_answer": "The Tennessee Supreme Court held that the defendant\u2019s failure to make a timely police report and concealment of the murder weapon did not prove that the murder was premeditated. The Court stated the following:\n\n  One who has recently killed another person recklessly, passionately, or even negligently may be extremely hesitant to reveal the details of the crime, and yet not be guilty of first-degree murder\u2026One who kills another in a passionate rage may dispose of the weapon when reason returns just as readily as the cool, dispassionate killer.*State v. West*, 844 S.W. 2d 144, 147 (1992), accessed July 30, 2010, <http://scholar.google.com/scholar_case?case=3481778471457660977&hl=en&as_sdt=2002&as_vis=1>.",
+    "agent_answer": "1. Legal conclusion  \nThe Supreme Court of Tennessee in *State v. West*, 844 S.W.2d 144 (1992), did not hold that the defendant\u2019s failure to report the shooting for over an hour and concealment of the murder weapon alone constitute sufficient evidence to prove premeditated (first-degree) murder. Instead, the Court found the proof insufficient to sustain a conviction for first-degree murder and reduced the conviction to second-degree murder.\n\n2. Statutory or doctrinal basis  \nThe Court explicitly stated that the sufficiency of the evidence to sustain the conviction for first-degree murder was seriously in doubt and that the proof was lacking, necessitating reduction of the conviction to second-degree murder. The opinion mentions that the appeal raised issues including the admissibility of character evidence and the propriety of jury instructions on inferences from concealment of evidence, but ultimately the Court found the evidence insufficient to prove premeditation required for first-degree murder.\n\n3. Qualifications  \nThe Court\u2019s decision was based on the totality of the evidence presented, not solely on the defendant\u2019s failure to report or concealment of the weapon. The opinion implies that these factors alone do not establish the element of premeditation necessary for first-degree murder.\n\n4. Conflicts  \nNo conflicting provisions or holdings are indicated in the provided context. The Court\u2019s reduction of the conviction reflects a strict standard for sufficiency of evidence in proving premeditated murder.",
     "relevant_passage_ids": [
       "9-9.3",
       "9-9.3-q2-supp-1"
@@ -1510,7 +1510,7 @@
       "hit_rate": 1.0
     },
     "faithfulness": {
-      "score": 0.5,
+      "score": 0.544,
       "score_gpt": 0.5,
       "score_claude": 0.0,
       "agreement": 0.5,
@@ -1519,9 +1519,9 @@
       "claims_supported_gpt": 2,
       "claims_supported_claude": 0
     },
-    "answer_relevance": 0.6439,
+    "answer_relevance": 0.6585,
     "judge": {
-      "final_score": 0.5576,
+      "final_score": 0.6401,
       "individual_scores": {
         "gpt-4o-mini": 0.5,
         "claude-haiku": 0.0
@@ -1546,7 +1546,7 @@
     "id": "9-9.1-q1",
     "question": "What is the fundamental difference between homicide and suicide?",
     "expected_answer": "The fundamental difference between homicide and suicide is the identity of the **victim**. In a homicide, the victim is another human being. In a suicide, the victim is the perpetrator, which is one of the reasons that homicide is often criminal and suicide is not.",
-    "agent_answer": "1. Legal conclusion  \nThe fundamental difference between homicide and suicide is that homicide is the killing of one human being by another, whereas suicide is the act of a person killing themselves.\n\n2. Statutory or doctrinal basis  \nAs stated in Document 1 (9.1: Homicide), \"Homicide is the killing of one human being by another.\" The same document also notes that \"suicide is not criminal,\" distinguishing it from homicide, which involves one person causing the death of another.\n\n3. Qualifications  \nWhile suicide itself is not criminal, assisted suicide—where another person aids in the act—may be criminal depending on the jurisdiction, as noted in Document 1.\n\n4. Conflicts  \nNo conflicts arise from the provided context regarding this distinction.",
+    "agent_answer": "1. Legal conclusion  \nThe fundamental difference between homicide and suicide is that homicide is the killing of one human being by another, whereas suicide is the act of a person killing themselves.\n\n2. Statutory or doctrinal basis  \nAs stated in Document 1 (9.1: Homicide), \"Homicide is the killing of one human being by another.\" The same document also notes that \"suicide is not criminal,\" distinguishing it from homicide, which involves one person causing the death of another.\n\n3. Qualifications  \nWhile suicide itself is not criminal, assisted suicide\u2014where another person aids in the act\u2014may be criminal depending on the jurisdiction, as noted in Document 1.\n\n4. Conflicts  \nNo conflicts arise from the provided context regarding this distinction.",
     "relevant_passage_ids": [
       "9-9.1"
     ],
@@ -1561,7 +1561,7 @@
       "hit_rate": 1.0
     },
     "faithfulness": {
-      "score": 0.625,
+      "score": 0.6692,
       "score_gpt": 0.5,
       "score_claude": 0.75,
       "agreement": 0.75,
@@ -1570,9 +1570,9 @@
       "claims_supported_gpt": 2,
       "claims_supported_claude": 3
     },
-    "answer_relevance": 0.8403,
+    "answer_relevance": 0.9023,
     "judge": {
-      "final_score": 0.7111,
+      "final_score": 0.7353,
       "individual_scores": {
         "gpt-4o-mini": 0.5,
         "claude-haiku": 0.75
@@ -1646,8 +1646,8 @@
   },
   {
     "id": "9-9.5-q2",
-    "question": "Read *Berry v. Superior Court*, 208 Cal. App. 3d 783 (1989). In *Berry*, the defendant was charged with second-degree murder when his pit bull attacked and killed a young child. The pit bull had never bitten anyone before this incident. Did the California Court of Appeal uphold the defendant’s murder charge on a theory of implied malice? The case is available at this link: lawschool.courtroomview.com/acf\\_cases/9986-berry-v-superior-court.",
-    "expected_answer": "The California Court of Appeals upheld the defendant’s second-degree murder charge and stated that it was up to the trier of fact to determine the probability of death and the subjective mental state of the defendant.",
+    "question": "Read *Berry v. Superior Court*, 208 Cal. App. 3d 783 (1989). In *Berry*, the defendant was charged with second-degree murder when his pit bull attacked and killed a young child. The pit bull had never bitten anyone before this incident. Did the California Court of Appeal uphold the defendant\u2019s murder charge on a theory of implied malice? The case is available at this link: lawschool.courtroomview.com/acf\\_cases/9986-berry-v-superior-court.",
+    "expected_answer": "The California Court of Appeals upheld the defendant\u2019s second-degree murder charge and stated that it was up to the trier of fact to determine the probability of death and the subjective mental state of the defendant.",
     "agent_answer": "I cannot find sufficient information in the provided context to answer this question.",
     "relevant_passage_ids": [
       "9-9.5"
@@ -1698,8 +1698,8 @@
   {
     "id": "9-9.6-q1",
     "question": "How does the Model Penal Code classify criminal homicides?",
-    "expected_answer": "The Model Penal Code classifies criminal homicides as felonies of the first, second, and third degree, depending on the defendant’s intent. Murder is supported by purposeful, knowing, or extremely reckless intent and is a felony of the first degree. Manslaughter is supported by reckless intent, or is a murder that is committed under the influence of extreme mental or emotional disturbance for which there is a reasonable explanation or excuse, and is a felony of the second degree. Criminal homicide committed with negligent intent is a negligent homicide and is a felony of the third degree.",
-    "agent_answer": "1. Legal conclusion  \nThe Model Penal Code classifies criminal homicides by defining murder intent as purposely, knowingly, or recklessly under circumstances manifesting extreme indifference to the value of human life. It does not include felony murder per se but suggests a rebuttable presumption that killings occurring during the commission of specified dangerous felonies exhibit recklessness under circumstances manifesting extreme indifference to human life.\n\n2. Statutory or doctrinal basis  \n- Murder intent under the Model Penal Code is defined as purposely, knowingly, or recklessly under circumstances manifesting extreme indifference to the value of human life (Document 1, 9.2: Murder, Murder Intent).  \n- The Model Penal Code does not include felony murder per se but suggests a rebuttable presumption of recklessness under extreme indifference to human life for killings during specified dangerous felonies (Document 2, 9.4: Felony Murder, Felony Murder Intent).\n\n3. Qualifications  \nThe Model Penal Code’s approach to felony murder differs from most jurisdictions that include felony murder as a separate category; it treats such killings under a recklessness standard rather than a distinct felony murder rule.\n\n4. Conflicts  \nThere is a tension between the traditional felony murder rule adopted by most jurisdictions and the Model Penal Code’s rejection of felony murder as a separate category, instead subsuming it under recklessness manifesting extreme indifference to human life. The Model Penal Code’s classification is lex specialis regarding felony murder intent.",
+    "expected_answer": "The Model Penal Code classifies criminal homicides as felonies of the first, second, and third degree, depending on the defendant\u2019s intent. Murder is supported by purposeful, knowing, or extremely reckless intent and is a felony of the first degree. Manslaughter is supported by reckless intent, or is a murder that is committed under the influence of extreme mental or emotional disturbance for which there is a reasonable explanation or excuse, and is a felony of the second degree. Criminal homicide committed with negligent intent is a negligent homicide and is a felony of the third degree.",
+    "agent_answer": "1. Legal conclusion  \nThe Model Penal Code classifies criminal homicides by defining murder intent as purposely, knowingly, or recklessly under circumstances manifesting extreme indifference to the value of human life. It does not include felony murder per se but suggests a rebuttable presumption that killings occurring during the commission of specified dangerous felonies exhibit recklessness under circumstances manifesting extreme indifference to human life.\n\n2. Statutory or doctrinal basis  \n- Murder intent under the Model Penal Code is defined as purposely, knowingly, or recklessly under circumstances manifesting extreme indifference to the value of human life (Document 1, 9.2: Murder, Murder Intent).  \n- The Model Penal Code does not include felony murder per se but suggests a rebuttable presumption of recklessness under extreme indifference to human life for killings during specified dangerous felonies (Document 2, 9.4: Felony Murder, Felony Murder Intent).\n\n3. Qualifications  \nThe Model Penal Code\u2019s approach to felony murder differs from most jurisdictions that include felony murder as a separate category; it treats such killings under a recklessness standard rather than a distinct felony murder rule.\n\n4. Conflicts  \nThere is a tension between the traditional felony murder rule adopted by most jurisdictions and the Model Penal Code\u2019s rejection of felony murder as a separate category, instead subsuming it under recklessness manifesting extreme indifference to human life. The Model Penal Code\u2019s classification is lex specialis regarding felony murder intent.",
     "relevant_passage_ids": [
       "9-9.6"
     ],
@@ -1714,7 +1714,7 @@
       "hit_rate": 0.0
     },
     "faithfulness": {
-      "score": 0.1667,
+      "score": 0.2008,
       "score_gpt": 0.2222,
       "score_claude": 0.1111,
       "agreement": 0.8889,
@@ -1723,9 +1723,9 @@
       "claims_supported_gpt": 2,
       "claims_supported_claude": 1
     },
-    "answer_relevance": 0.8042,
+    "answer_relevance": 0.8556,
     "judge": {
-      "final_score": 0.4217,
+      "final_score": 0.4752,
       "individual_scores": {
         "gpt-4o-mini": 0.2222,
         "claude-haiku": 0.1111
@@ -1748,7 +1748,7 @@
   },
   {
     "id": "9-9.6-q2",
-    "question": "Read *Stevens v. State*, 691 N.E.2d 412 (1997). Why did the Indiana Supreme Court affirm the lower court’s decision to refuse a jury instruction on voluntary manslaughter in this case? The case is available at this link: [http://scholar.google.com/scholar\\_case?case=1747625552972024733&q= stevens+v.+state+691+ne2d+412&hl=en&as\\_sdt=2002&as\\_vis=1](http://scholar.google.com/scholar_case?case=1747625552972024733&q=stevens+v.+state+691+ne2d+412&hl=en&as_sdt=2002&as_vis=1).",
+    "question": "Read *Stevens v. State*, 691 N.E.2d 412 (1997). Why did the Indiana Supreme Court affirm the lower court\u2019s decision to refuse a jury instruction on voluntary manslaughter in this case? The case is available at this link: [http://scholar.google.com/scholar\\_case?case=1747625552972024733&q= stevens+v.+state+691+ne2d+412&hl=en&as\\_sdt=2002&as\\_vis=1](http://scholar.google.com/scholar_case?case=1747625552972024733&q=stevens+v.+state+691+ne2d+412&hl=en&as_sdt=2002&as_vis=1).",
     "expected_answer": "The Indiana Supreme Court held that a jury instruction on voluntary manslaughter was inappropriate because a reasonable person would not be provoked by words alone. In this case, a ten-year-old boy threatened to expose sexual molestation by the defendant, who was twenty years old. The Court held that this threat was not **adequate provocation**.",
     "agent_answer": "I cannot find sufficient information in the provided context to answer this question.",
     "relevant_passage_ids": [
@@ -1801,7 +1801,7 @@
   {
     "id": "9-9.6-q3",
     "question": "Read *Tripp v. State*, 374 A.2d 384 (1977). In this case, the defendant killed his ex-girlfriend, her mother, her niece, and her son. Did the Maryland Court of Appeals hold that *the victim* must be the source of adequate provocation in a voluntary manslaughter case? The case is available at this link: <http://scholar.google.com/scholar_case?case=17743318345966072534&hl=en&as_sdt=2002&as_vis=1>.",
-    "expected_answer": "The Maryland Court of Appeals held that *the victim* must be the source of the adequate provocation in a voluntary manslaughter case. Thus the defendant could not claim voluntary manslaughter when he killed his ex-girlfriend’s family members because he was provoked only *by her*.",
+    "expected_answer": "The Maryland Court of Appeals held that *the victim* must be the source of the adequate provocation in a voluntary manslaughter case. Thus the defendant could not claim voluntary manslaughter when he killed his ex-girlfriend\u2019s family members because he was provoked only *by her*.",
     "agent_answer": "I cannot find sufficient information in the provided context to answer this question.",
     "relevant_passage_ids": [
       "9-9.6",
@@ -1853,8 +1853,8 @@
   {
     "id": "10-10.1-q3",
     "question": "Read *Fleming v. State*, 323 SW 3d 540 (2010). In *Fleming*, the defendant appealed his conviction for aggravated sexual assault of a child under fourteen because he was not allowed to present a mistake of age defense. The defendant claimed that the requirement of strict liability intent as to the age of the victim deprived him of **due process of law**. Did the Court of Appeals of Texas agree with the defendant? The case is available at this link: [http://scholar.google.com/scholar\\_case?case=12908572719333538188&q= %22Scott+v.+State+36+SW+3d+240%22&hl=en&as\\_sdt=2,5](http://scholar.google.com/scholar_case?case=12908572719333538188&q=%22Scott+v.+State+36+SW+3d+240%22&hl=en&as_sdt=2,5).",
-    "expected_answer": "The Court of Appeals of Texas held that state legislatures have broad powers to define crimes and criminal intent requirements, including the power to *eliminate* a culpable mental state. Thus the court upheld the defendant’s conviction and did not strike the strict liability aggravated sexual assault statute. The court reviewed significant state and federal precedent to determine that the majority of states disallow the mistake of age defense, and that this does not violate federal or Texas state **due process** because it is supported by the legitimate government interest of protecting children.",
-    "agent_answer": "1. Legal conclusion  \nThe Court of Appeals of Texas did not agree with the defendant. It rejected the argument that the Texas Penal Code provision under which Fleming was convicted was unconstitutional for failing to require proof of a culpable mental state regarding the victim's age or for failing to recognize a reasonable mistake of age defense.\n\n2. Statutory or doctrinal basis  \nThe opinion in *Fleming v. State*, 323 S.W.3d 540 (2010), states that the defendant argued the statute was unconstitutional under federal and Texas due process provisions because it imposed strict liability as to the victim's age and did not allow a mistake of age defense. The court explicitly disagreed with this argument, affirming the conviction and sentence. The court referenced the due process clauses of the U.S. Constitution (Fourteenth Amendment) and the Texas Constitution but found no violation.\n\n3. Qualifications  \nThe decision is specific to the Texas Penal Code section 22.021 and the facts of this case. The court’s ruling affirms that strict liability as to the victim’s age in aggravated sexual assault of a child under fourteen does not violate due process under Texas law.\n\n4. Conflicts  \nNo conflicting provisions or interpretations are noted within the provided context. The court’s ruling is definitive on this point.",
+    "expected_answer": "The Court of Appeals of Texas held that state legislatures have broad powers to define crimes and criminal intent requirements, including the power to *eliminate* a culpable mental state. Thus the court upheld the defendant\u2019s conviction and did not strike the strict liability aggravated sexual assault statute. The court reviewed significant state and federal precedent to determine that the majority of states disallow the mistake of age defense, and that this does not violate federal or Texas state **due process** because it is supported by the legitimate government interest of protecting children.",
+    "agent_answer": "1. Legal conclusion  \nThe Court of Appeals of Texas did not agree with the defendant. It rejected the argument that the Texas Penal Code provision under which Fleming was convicted was unconstitutional for failing to require proof of a culpable mental state regarding the victim's age or for failing to recognize a reasonable mistake of age defense.\n\n2. Statutory or doctrinal basis  \nThe opinion in *Fleming v. State*, 323 S.W.3d 540 (2010), states that the defendant argued the statute was unconstitutional under federal and Texas due process provisions because it imposed strict liability as to the victim's age and did not allow a mistake of age defense. The court explicitly disagreed with this argument, affirming the conviction and sentence. The court referenced the due process clauses of the U.S. Constitution (Fourteenth Amendment) and the Texas Constitution but found no violation.\n\n3. Qualifications  \nThe decision is specific to the Texas Penal Code section 22.021 and the facts of this case. The court\u2019s ruling affirms that strict liability as to the victim\u2019s age in aggravated sexual assault of a child under fourteen does not violate due process under Texas law.\n\n4. Conflicts  \nNo conflicting provisions or interpretations are noted within the provided context. The court\u2019s ruling is definitive on this point.",
     "relevant_passage_ids": [
       "10-10.1",
       "10-10.1-q3-supp-1"
@@ -1870,7 +1870,7 @@
       "hit_rate": 1.0
     },
     "faithfulness": {
-      "score": 0.4286,
+      "score": 0.4664,
       "score_gpt": 0.4286,
       "score_claude": 0.4286,
       "agreement": 1.0,
@@ -1879,9 +1879,9 @@
       "claims_supported_gpt": 3,
       "claims_supported_claude": 3
     },
-    "answer_relevance": 0.6639,
+    "answer_relevance": 0.6789,
     "judge": {
-      "final_score": 0.5227,
+      "final_score": 0.5764,
       "individual_scores": {
         "gpt-4o-mini": 0.4286,
         "claude-haiku": 0.4286
@@ -1904,9 +1904,9 @@
   },
   {
     "id": "10-10.4-q1",
-    "question": "Coby is in the process of robbing a bank. When a security guard threatens to shoot Coby, he grabs a customer in the bank and holds a knife to her throat. Coby thereafter demands a getaway vehicle and fifty thousand dollars in cash in exchange for the hostage’s release. Has Coby committed **kidnapping** in this case? Why or why not?",
-    "expected_answer": "If Coby’s state does not require **asportation** for kidnapping when the kidnapping is for ransom, then Coby has probably committed kidnapping. He confined a victim against her will with the purpose of committing another offense (theft) and demanded a ransom, which are all the elements of kidnapping.",
-    "agent_answer": "1. Legal conclusion  \nYes, Coby has committed kidnapping.\n\n2. Statutory or doctrinal basis  \nKidnapping requires the criminal act of confining the victim and, in many states, moving the victim (asportation). Here, Coby physically restrained the customer by holding a knife to her throat, which constitutes confinement. Although the context does not specify movement, many jurisdictions recognize confinement alone as sufficient for kidnapping, especially when accompanied by demands for ransom or other threats. Additionally, Coby’s demand for a getaway vehicle and money in exchange for the hostage’s release aligns with the harm and attendant circumstances elements of kidnapping, as kidnapping historically involves ransom demands and serious threats to liberty.\n\n3. Qualifications  \nThe context notes that in many states, asportation (movement) is required, but it does not state that movement is always necessary. The act of confining the victim with a deadly weapon and demanding ransom strongly supports kidnapping charges. The presence of a threat and ransom demand distinguishes this from mere false imprisonment, which is a lesser included offense.\n\n4. Conflicts  \nNo conflicting provisions apply here; the kidnapping elements from Document 1 directly address the facts. The extortion and robbery provisions in Document 2 do not negate the kidnapping offense but may be additional charges.",
+    "question": "Coby is in the process of robbing a bank. When a security guard threatens to shoot Coby, he grabs a customer in the bank and holds a knife to her throat. Coby thereafter demands a getaway vehicle and fifty thousand dollars in cash in exchange for the hostage\u2019s release. Has Coby committed **kidnapping** in this case? Why or why not?",
+    "expected_answer": "If Coby\u2019s state does not require **asportation** for kidnapping when the kidnapping is for ransom, then Coby has probably committed kidnapping. He confined a victim against her will with the purpose of committing another offense (theft) and demanded a ransom, which are all the elements of kidnapping.",
+    "agent_answer": "1. Legal conclusion  \nYes, Coby has committed kidnapping.\n\n2. Statutory or doctrinal basis  \nKidnapping requires the criminal act of confining the victim and, in many states, moving the victim (asportation). Here, Coby physically restrained the customer by holding a knife to her throat, which constitutes confinement. Although the context does not specify movement, many jurisdictions recognize confinement alone as sufficient for kidnapping, especially when accompanied by demands for ransom or other threats. Additionally, Coby\u2019s demand for a getaway vehicle and money in exchange for the hostage\u2019s release aligns with the harm and attendant circumstances elements of kidnapping, as kidnapping historically involves ransom demands and serious threats to liberty.\n\n3. Qualifications  \nThe context notes that in many states, asportation (movement) is required, but it does not state that movement is always necessary. The act of confining the victim with a deadly weapon and demanding ransom strongly supports kidnapping charges. The presence of a threat and ransom demand distinguishes this from mere false imprisonment, which is a lesser included offense.\n\n4. Conflicts  \nNo conflicting provisions apply here; the kidnapping elements from Document 1 directly address the facts. The extortion and robbery provisions in Document 2 do not negate the kidnapping offense but may be additional charges.",
     "relevant_passage_ids": [
       "10-10.4"
     ],
@@ -1921,7 +1921,7 @@
       "hit_rate": 1.0
     },
     "faithfulness": {
-      "score": 0.625,
+      "score": 0.6461,
       "score_gpt": 0.5,
       "score_claude": 0.75,
       "agreement": 0.75,
@@ -1930,9 +1930,9 @@
       "claims_supported_gpt": 2,
       "claims_supported_claude": 3
     },
-    "answer_relevance": 0.6319,
+    "answer_relevance": 0.6801,
     "judge": {
-      "final_score": 0.6278,
+      "final_score": 0.6477,
       "individual_scores": {
         "gpt-4o-mini": 0.5,
         "claude-haiku": 0.75
@@ -1981,9 +1981,9 @@
       "claims_supported_gpt": 2,
       "claims_supported_claude": 2
     },
-    "answer_relevance": 0.643,
+    "answer_relevance": 0.6921,
     "judge": {
-      "final_score": 0.8572,
+      "final_score": 0.8977,
       "individual_scores": {
         "gpt-4o-mini": 1.0,
         "claude-haiku": 1.0
@@ -2006,9 +2006,9 @@
   },
   {
     "id": "10-10.2-q2",
-    "question": "Read *State v. Higgs*, 601 N.W.2d 653 (1999). What criminal act did the defendant commit that resulted in a conviction for battery? Did the Court of Appeals of Wisconsin uphold the defendant’s conviction? Why or why not? The case is available at this link: [http://scholar.google.com/scholar\\_case?case=10727852975973050662&q= State+v.+Higgs+601+N.W.2d+653&hl=en&as\\_sdt=2,5](http://scholar.google.com/scholar_case?case=10727852975973050662&q=State+v.+Higgs+601+N.W.2d+653&hl=en&as_sdt=2,5).",
-    "expected_answer": "The defendant threw a cup of urine in the victim’s face. Although the battery statute in Wisconsin requires **bodily harm**, the court held that the stinging sensation in the victim’s eyes was sufficient and upheld the defendant’s conviction.",
-    "agent_answer": "1. Legal conclusion  \nThe defendant, Charles Dante Higgs, committed the criminal act of throwing a cup of urine directly into another prisoner's face, which resulted in a conviction for misdemeanor battery. The Court of Appeals of Wisconsin upheld the defendant’s conviction.\n\n2. Statutory or doctrinal basis  \nThe court concluded that because Higgs pled no contest, he waived his right to challenge all non-jurisdictional defects in the complaint, including the alleged deficiency that the complaint lacked factual support for bodily harm. Thus, the conviction was upheld despite the defendant’s argument that the complaint did not sufficiently allege impairment of the victim’s physical condition. (Document 1, ¶3-4)\n\n3. Qualifications  \nThe court distinguished between jurisdictional and non-jurisdictional defects, allowing challenges only to jurisdictional defects after a no contest plea. Higgs’s challenge was based on the factual basis of the complaint, which is a non-jurisdictional defect waived by his plea.\n\n4. Conflicts  \nNo conflicting provisions are indicated in the provided context.",
+    "question": "Read *State v. Higgs*, 601 N.W.2d 653 (1999). What criminal act did the defendant commit that resulted in a conviction for battery? Did the Court of Appeals of Wisconsin uphold the defendant\u2019s conviction? Why or why not? The case is available at this link: [http://scholar.google.com/scholar\\_case?case=10727852975973050662&q= State+v.+Higgs+601+N.W.2d+653&hl=en&as\\_sdt=2,5](http://scholar.google.com/scholar_case?case=10727852975973050662&q=State+v.+Higgs+601+N.W.2d+653&hl=en&as_sdt=2,5).",
+    "expected_answer": "The defendant threw a cup of urine in the victim\u2019s face. Although the battery statute in Wisconsin requires **bodily harm**, the court held that the stinging sensation in the victim\u2019s eyes was sufficient and upheld the defendant\u2019s conviction.",
+    "agent_answer": "1. Legal conclusion  \nThe defendant, Charles Dante Higgs, committed the criminal act of throwing a cup of urine directly into another prisoner's face, which resulted in a conviction for misdemeanor battery. The Court of Appeals of Wisconsin upheld the defendant\u2019s conviction.\n\n2. Statutory or doctrinal basis  \nThe court concluded that because Higgs pled no contest, he waived his right to challenge all non-jurisdictional defects in the complaint, including the alleged deficiency that the complaint lacked factual support for bodily harm. Thus, the conviction was upheld despite the defendant\u2019s argument that the complaint did not sufficiently allege impairment of the victim\u2019s physical condition. (Document 1, \u00b63-4)\n\n3. Qualifications  \nThe court distinguished between jurisdictional and non-jurisdictional defects, allowing challenges only to jurisdictional defects after a no contest plea. Higgs\u2019s challenge was based on the factual basis of the complaint, which is a non-jurisdictional defect waived by his plea.\n\n4. Conflicts  \nNo conflicting provisions are indicated in the provided context.",
     "relevant_passage_ids": [
       "10-10.2",
       "10-10.2-q2-supp-1"
@@ -2024,7 +2024,7 @@
       "hit_rate": 1.0
     },
     "faithfulness": {
-      "score": 0.5,
+      "score": 0.5561,
       "score_gpt": 0.5,
       "score_claude": 0.5,
       "agreement": 1.0,
@@ -2033,9 +2033,9 @@
       "claims_supported_gpt": 2,
       "claims_supported_claude": 2
     },
-    "answer_relevance": 0.528,
+    "answer_relevance": 0.5957,
     "judge": {
-      "final_score": 0.5112,
+      "final_score": 0.5575,
       "individual_scores": {
         "gpt-4o-mini": 0.5,
         "claude-haiku": 0.5
@@ -2058,9 +2058,9 @@
   },
   {
     "id": "11-11.3-q2",
-    "question": "Read *Butler v. Florida*, No. 1D08-0958 (Fla: Dist. Court of Appeals, 2009). In *Butler*, the defendant appealed his convictions for trespass and criminal mischief, based on the trial court’s failure to instruct the jury on the defense of **necessity**. The defendant claimed he broke into a residence because he was being chased and feared for his safety. Did the Court of Appeal of Florida reverse the defendant’s convictions? Why or why not? The case is available at this link: [http://scholar.google.com/scholar\\_case?case=1710354491441564352&q= burglary+%22necessity+defense%22&hl=en&as\\_sdt=2,5&as\\_ylo=2000](http://scholar.google.com/scholar_case?case=1710354491441564352&q=burglary+%22necessity+defense%22&hl=en&as_sdt=2,5&as_ylo=2000).",
-    "expected_answer": "The Court of Appeal of Florida held that the evidence was *insufficient* to warrant the **necessity** jury instruction. Although a neighbor to the burglarized residence testified that the defendant rang her doorbell and asked to come in while looking around in a scared manner, and a guest at a party testified that the defendant was slapped by an individual claiming the defendant owed him money, the court held that this evidence did not establish the defendant’s reasonable belief that he was at risk for immediate serious bodily injury.",
-    "agent_answer": "1. Legal conclusion  \nThe Court of Appeal of Florida affirmed the defendant’s convictions for trespass and criminal mischief and did not reverse them.\n\n2. Statutory or doctrinal basis  \nThe court held that the trial court did not err in denying the defendant’s requested jury instruction on the defense of necessity. The opinion states that the appellant’s defense was that he acted out of necessity in breaking into the home, but the court found no error in the trial court’s refusal to instruct the jury on that defense.\n\n3. Qualifications  \nThe decision was based on the facts presented at trial, including that the defendant forcibly entered the home by kicking through a door panel and unlocking the door, and that nothing was missing from the home. The court’s ruling is specific to the circumstances of this case and the application of the necessity defense under Florida law as interpreted by the First District Court of Appeal.\n\n4. Conflicts  \nNo conflicting provisions or doctrines are indicated in the provided context.",
+    "question": "Read *Butler v. Florida*, No. 1D08-0958 (Fla: Dist. Court of Appeals, 2009). In *Butler*, the defendant appealed his convictions for trespass and criminal mischief, based on the trial court\u2019s failure to instruct the jury on the defense of **necessity**. The defendant claimed he broke into a residence because he was being chased and feared for his safety. Did the Court of Appeal of Florida reverse the defendant\u2019s convictions? Why or why not? The case is available at this link: [http://scholar.google.com/scholar\\_case?case=1710354491441564352&q= burglary+%22necessity+defense%22&hl=en&as\\_sdt=2,5&as\\_ylo=2000](http://scholar.google.com/scholar_case?case=1710354491441564352&q=burglary+%22necessity+defense%22&hl=en&as_sdt=2,5&as_ylo=2000).",
+    "expected_answer": "The Court of Appeal of Florida held that the evidence was *insufficient* to warrant the **necessity** jury instruction. Although a neighbor to the burglarized residence testified that the defendant rang her doorbell and asked to come in while looking around in a scared manner, and a guest at a party testified that the defendant was slapped by an individual claiming the defendant owed him money, the court held that this evidence did not establish the defendant\u2019s reasonable belief that he was at risk for immediate serious bodily injury.",
+    "agent_answer": "1. Legal conclusion  \nThe Court of Appeal of Florida affirmed the defendant\u2019s convictions for trespass and criminal mischief and did not reverse them.\n\n2. Statutory or doctrinal basis  \nThe court held that the trial court did not err in denying the defendant\u2019s requested jury instruction on the defense of necessity. The opinion states that the appellant\u2019s defense was that he acted out of necessity in breaking into the home, but the court found no error in the trial court\u2019s refusal to instruct the jury on that defense.\n\n3. Qualifications  \nThe decision was based on the facts presented at trial, including that the defendant forcibly entered the home by kicking through a door panel and unlocking the door, and that nothing was missing from the home. The court\u2019s ruling is specific to the circumstances of this case and the application of the necessity defense under Florida law as interpreted by the First District Court of Appeal.\n\n4. Conflicts  \nNo conflicting provisions or doctrines are indicated in the provided context.",
     "relevant_passage_ids": [
       "11-11.3",
       "11-11.3-q2-supp-1"
@@ -2085,9 +2085,9 @@
       "claims_supported_gpt": 0,
       "claims_supported_claude": 0
     },
-    "answer_relevance": 0.5648,
+    "answer_relevance": 0.6197,
     "judge": {
-      "final_score": 0.2259,
+      "final_score": 0.2683,
       "individual_scores": {
         "gpt-4o-mini": 0.0,
         "claude-haiku": 0.0
@@ -2110,8 +2110,8 @@
   },
   {
     "id": "11-11.1-q1",
-    "question": "Recall a scenario in Chapter 1 where Linda and Clara browse an expensive department store’s lingerie department and Linda surreptitiously places a bra in her purse and leaves the store without paying for it. What type of theft did Linda commit in this scenario?",
-    "expected_answer": "Linda has committed **larceny** because she **took** personal property belonging to another without consent and with what appears to be the intent to keep it permanently. Shoplifting is typically larceny. A bra is not a high-value item (even in an expensive department store), so Linda’s larceny is probably petty, second-, or third-degree theft under a consolidated theft statute.",
+    "question": "Recall a scenario in Chapter 1 where Linda and Clara browse an expensive department store\u2019s lingerie department and Linda surreptitiously places a bra in her purse and leaves the store without paying for it. What type of theft did Linda commit in this scenario?",
+    "expected_answer": "Linda has committed **larceny** because she **took** personal property belonging to another without consent and with what appears to be the intent to keep it permanently. Shoplifting is typically larceny. A bra is not a high-value item (even in an expensive department store), so Linda\u2019s larceny is probably petty, second-, or third-degree theft under a consolidated theft statute.",
     "agent_answer": "1. Legal conclusion  \nLinda committed the crime of larceny theft.\n\n2. Statutory or doctrinal basis  \nDocument 1 describes Linda's act of surreptitiously placing a bra in her purse and leaving the store without paying as shoplifting, which is a form of theft. Document 2 explains that nonviolent theft crimes, including larceny, involve the unlawful taking of property. Although modern statutes consolidate theft offenses, the traditional category applicable here is larceny, which involves the unlawful taking and carrying away of tangible personal property with intent to permanently deprive the owner.\n\n3. Qualifications  \nThe context does not specify the jurisdiction or whether the consolidated theft statute applies, but the example aligns with the traditional definition of larceny theft as discussed in Document 2.",
     "relevant_passage_ids": [
       "11-11.1"
@@ -2127,7 +2127,7 @@
       "hit_rate": 1.0
     },
     "faithfulness": {
-      "score": 0.6667,
+      "score": 0.6883,
       "score_gpt": 0.6667,
       "score_claude": 0.6667,
       "agreement": 1.0,
@@ -2136,9 +2136,9 @@
       "claims_supported_gpt": 4,
       "claims_supported_claude": 4
     },
-    "answer_relevance": 0.5958,
+    "answer_relevance": 0.6598,
     "judge": {
-      "final_score": 0.6383,
+      "final_score": 0.6806,
       "individual_scores": {
         "gpt-4o-mini": 0.6667,
         "claude-haiku": 0.6667
@@ -2161,9 +2161,9 @@
   },
   {
     "id": "11-11.2-q1",
-    "question": "Review the example given in Section 11 with Jeremy and Chuck. In this example, Chuck shows Jeremy a video he made of Jeremy reading a magazine instead of tuning up Chuck’s taxi. Chuck thereafter threatens to show this video to the district attorney if Jeremy does not pay him two hundred dollars. Has Chuck committed a crime in this scenario? If your answer is yes, which crime?",
-    "expected_answer": "Chuck has committed the crime of **attempted extortion**. Although Chuck threatened to expose Jeremy’s crime of false pretenses with the intent to force Jeremy to pay him two hundred dollars, Jeremy did *not pay* Chuck. Thus the **harm** element of extortion is lacking, and Chuck’s conduct is only attempted extortion.",
-    "agent_answer": "1. Legal conclusion  \nYes, Chuck has committed a crime. The crime is extortion.\n\n2. Statutory or doctrinal basis  \nAccording to Document 1, Section 11.1 on Nonviolent Theft Crimes, extortion is included under the consolidated theft statutes as a nonviolent theft offense. Extortion involves obtaining property or money from another by threat, which fits Chuck’s conduct of threatening to show a video to the district attorney unless Jeremy pays him two hundred dollars.\n\n3. Qualifications  \nThe context specifies that consolidated theft statutes include extortion and that these statutes unify various nonviolent theft crimes under one grading system. The example fits the definition of extortion as a nonviolent theft crime involving a threat to obtain money.\n\n4. Conflicts  \nNo conflicting provisions are indicated in the provided context. The consolidated theft statute explicitly includes extortion as a theft offense.",
+    "question": "Review the example given in Section 11 with Jeremy and Chuck. In this example, Chuck shows Jeremy a video he made of Jeremy reading a magazine instead of tuning up Chuck\u2019s taxi. Chuck thereafter threatens to show this video to the district attorney if Jeremy does not pay him two hundred dollars. Has Chuck committed a crime in this scenario? If your answer is yes, which crime?",
+    "expected_answer": "Chuck has committed the crime of **attempted extortion**. Although Chuck threatened to expose Jeremy\u2019s crime of false pretenses with the intent to force Jeremy to pay him two hundred dollars, Jeremy did *not pay* Chuck. Thus the **harm** element of extortion is lacking, and Chuck\u2019s conduct is only attempted extortion.",
+    "agent_answer": "1. Legal conclusion  \nYes, Chuck has committed a crime. The crime is extortion.\n\n2. Statutory or doctrinal basis  \nAccording to Document 1, Section 11.1 on Nonviolent Theft Crimes, extortion is included under the consolidated theft statutes as a nonviolent theft offense. Extortion involves obtaining property or money from another by threat, which fits Chuck\u2019s conduct of threatening to show a video to the district attorney unless Jeremy pays him two hundred dollars.\n\n3. Qualifications  \nThe context specifies that consolidated theft statutes include extortion and that these statutes unify various nonviolent theft crimes under one grading system. The example fits the definition of extortion as a nonviolent theft crime involving a threat to obtain money.\n\n4. Conflicts  \nNo conflicting provisions are indicated in the provided context. The consolidated theft statute explicitly includes extortion as a theft offense.",
     "relevant_passage_ids": [
       "11-11.2"
     ],
@@ -2178,7 +2178,7 @@
       "hit_rate": 0.0
     },
     "faithfulness": {
-      "score": 0.1667,
+      "score": 0.1961,
       "score_gpt": 0.1667,
       "score_claude": 0.1667,
       "agreement": 1.0,
@@ -2187,9 +2187,9 @@
       "claims_supported_gpt": 1,
       "claims_supported_claude": 1
     },
-    "answer_relevance": 0.4617,
+    "answer_relevance": 0.5033,
     "judge": {
-      "final_score": 0.2847,
+      "final_score": 0.335,
       "individual_scores": {
         "gpt-4o-mini": 0.1667,
         "claude-haiku": 0.1667
@@ -2212,9 +2212,9 @@
   },
   {
     "id": "11-11.1-q2",
-    "question": "Ellen goes to the fine jewelry department at Macy’s and asks the clerk if she can see a Rolex watch, valued at ten thousand dollars. The clerk takes the watch out of the case and lays it on the counter. Ellen tells the clerk that her manager is signaling. When the clerk turns around, Ellen puts her hand over the watch and begins to slide it across the counter and *into her open purse*. Before the watch slides off the counter, the clerk turns back around and pins Ellen’s hand to the counter, shouting for a security guard. Has Ellen committed a crime in this scenario? If your answer is yes, which crime?",
-    "expected_answer": "Ellen has committed **larceny** because she **took** personal property belonging to another without consent and with what appears to be the intent to keep it permanently. When Ellen put her hand over the Rolex watch, she gained **control** of it. When she slid it across the counter, this was sufficient **asportation** of the property because asportation for larceny can generally be any distance—no matter how slight. The Rolex is valued at ten thousand dollars, so Ellen’s larceny is probably grand or first-degree theft under a consolidated theft statute.",
-    "agent_answer": "1. Legal conclusion  \nYes, Ellen has committed a crime—specifically, theft under a consolidated theft statute.\n\n2. Statutory or doctrinal basis  \nAccording to Document 1, consolidated theft statutes combine traditional nonviolent theft offenses such as larceny, embezzlement, and false pretenses into a single statute that criminalizes the unlawful taking of property. The criminal act element requires the unlawful taking or carrying away of property with criminal intent. Ellen’s act of sliding the Rolex watch, valued at $10,000, into her purse without permission constitutes the criminal act of theft. The value of the property also supports the grading of the offense under the consolidated statute.\n\n3. Qualifications  \nThe scenario does not indicate any use of force or threat, so the crime is nonviolent theft rather than robbery or extortion. The clerk’s intervention before the watch was fully removed does not negate the criminal act element, as the attempt to take the property was clearly initiated with criminal intent.\n\n4. Conflicts  \nNo conflicting provisions apply here, as the facts align squarely with the consolidated theft statute framework described in Document 1.",
+    "question": "Ellen goes to the fine jewelry department at Macy\u2019s and asks the clerk if she can see a Rolex watch, valued at ten thousand dollars. The clerk takes the watch out of the case and lays it on the counter. Ellen tells the clerk that her manager is signaling. When the clerk turns around, Ellen puts her hand over the watch and begins to slide it across the counter and *into her open purse*. Before the watch slides off the counter, the clerk turns back around and pins Ellen\u2019s hand to the counter, shouting for a security guard. Has Ellen committed a crime in this scenario? If your answer is yes, which crime?",
+    "expected_answer": "Ellen has committed **larceny** because she **took** personal property belonging to another without consent and with what appears to be the intent to keep it permanently. When Ellen put her hand over the Rolex watch, she gained **control** of it. When she slid it across the counter, this was sufficient **asportation** of the property because asportation for larceny can generally be any distance\u2014no matter how slight. The Rolex is valued at ten thousand dollars, so Ellen\u2019s larceny is probably grand or first-degree theft under a consolidated theft statute.",
+    "agent_answer": "1. Legal conclusion  \nYes, Ellen has committed a crime\u2014specifically, theft under a consolidated theft statute.\n\n2. Statutory or doctrinal basis  \nAccording to Document 1, consolidated theft statutes combine traditional nonviolent theft offenses such as larceny, embezzlement, and false pretenses into a single statute that criminalizes the unlawful taking of property. The criminal act element requires the unlawful taking or carrying away of property with criminal intent. Ellen\u2019s act of sliding the Rolex watch, valued at $10,000, into her purse without permission constitutes the criminal act of theft. The value of the property also supports the grading of the offense under the consolidated statute.\n\n3. Qualifications  \nThe scenario does not indicate any use of force or threat, so the crime is nonviolent theft rather than robbery or extortion. The clerk\u2019s intervention before the watch was fully removed does not negate the criminal act element, as the attempt to take the property was clearly initiated with criminal intent.\n\n4. Conflicts  \nNo conflicting provisions apply here, as the facts align squarely with the consolidated theft statute framework described in Document 1.",
     "relevant_passage_ids": [
       "11-11.1"
     ],
@@ -2229,7 +2229,7 @@
       "hit_rate": 1.0
     },
     "faithfulness": {
-      "score": 0.375,
+      "score": 0.4284,
       "score_gpt": 0.375,
       "score_claude": 0.375,
       "agreement": 1.0,
@@ -2238,9 +2238,9 @@
       "claims_supported_gpt": 3,
       "claims_supported_claude": 3
     },
-    "answer_relevance": 0.4519,
+    "answer_relevance": 0.5111,
     "judge": {
-      "final_score": 0.4058,
+      "final_score": 0.4595,
       "individual_scores": {
         "gpt-4o-mini": 0.375,
         "claude-haiku": 0.375
@@ -2263,8 +2263,8 @@
   },
   {
     "id": "12-12.3-q1",
-    "question": "Anita lives in a state that permits the possession and use of marijuana for medical reasons. Anita obtains some marijuana and uses it to treat her medical condition, carefully following her state’s statutory requirements. Has Anita committed a crime(s)?",
-    "expected_answer": "Anita has committed the federal crimes of **possession** and **use** of marijuana. Although Anita’s state has legalized marijuana for medical use, and Anita complied with her state’s statutory requirements, the Federal Controlled Substances Act criminalizes the possession and use of marijuana, and there is no federal medical necessity exemption.",
+    "question": "Anita lives in a state that permits the possession and use of marijuana for medical reasons. Anita obtains some marijuana and uses it to treat her medical condition, carefully following her state\u2019s statutory requirements. Has Anita committed a crime(s)?",
+    "expected_answer": "Anita has committed the federal crimes of **possession** and **use** of marijuana. Although Anita\u2019s state has legalized marijuana for medical use, and Anita complied with her state\u2019s statutory requirements, the Federal Controlled Substances Act criminalizes the possession and use of marijuana, and there is no federal medical necessity exemption.",
     "agent_answer": "1. Legal conclusion  \nAnita has not committed a crime under her state's law permitting the possession and use of marijuana for medical reasons, provided she complies with the statutory requirements.\n\n2. Statutory or doctrinal basis  \nAccording to Document 1, many states have legalized marijuana for medicinal purposes due to its valid therapeutic qualities. These states have enacted statutes permitting possession and use of marijuana for medical reasons, which implies that lawful possession and use under these statutes is not criminalized. The context states: \"marijuana... has been legalized by many states for medicinal purposes,\" and that these statutes pose constitutional questions but do not criminalize compliant medical use.\n\n3. Qualifications  \nThis conclusion applies only if Anita strictly follows her state's statutory requirements for medical marijuana use. If she deviates from these requirements, she may be subject to criminal liability. The context does not specify the exact statutory requirements or penalties for noncompliance.\n\n4. Conflicts  \nNo conflicting provisions are indicated in the provided context. The federal Controlled Substances Act criminalizes marijuana possession and use, but the context focuses on state law permitting medical use, which is recognized as lawful within those states. The context does not resolve federal-state conflicts but emphasizes state legalization for medical purposes.",
     "relevant_passage_ids": [
       "12-12.3"
@@ -2280,7 +2280,7 @@
       "hit_rate": 1.0
     },
     "faithfulness": {
-      "score": 0.3333,
+      "score": 0.3628,
       "score_gpt": 0.3333,
       "score_claude": 0.3333,
       "agreement": 1.0,
@@ -2289,9 +2289,9 @@
       "claims_supported_gpt": 2,
       "claims_supported_claude": 2
     },
-    "answer_relevance": 0.6664,
+    "answer_relevance": 0.7092,
     "judge": {
-      "final_score": 0.4665,
+      "final_score": 0.5245,
       "individual_scores": {
         "gpt-4o-mini": 0.3333,
         "claude-haiku": 0.3333
@@ -2315,8 +2315,8 @@
   {
     "id": "12-12.1-q1",
     "question": "A city enacts an ordinance that prohibits standing or remaining in a crosswalk for an extended period with a sign. What are three potential constitutional challenges to this ordinance? Can you identify a government interest supporting it?",
-    "expected_answer": "The ordinance can be challenged under the **First Amendment**, as **void for vagueness**, and as **overbroad**. A sign is expressive, so a First Amendment challenge is appropriate. The words “extended period” are vague, which can lead to uneven application by law enforcement and a failure to provide notice to the public of what behavior is criminal. Holding a sign such as a school crossing sign is protected activity, so an overbreadth challenge is also in order. The government has an interest in keeping the roadways *safe*, and in preventing dangerous distractions that could occur when drivers try to read signs while approaching a crosswalk.",
-    "agent_answer": "1. Legal conclusion  \nThree potential constitutional challenges to a city ordinance prohibiting standing or remaining in a crosswalk for an extended period with a sign are:  \na) Violation of the First Amendment right to free speech, as the ordinance restricts expressive conduct involving holding a sign.  \nb) Overbreadth or lack of narrow tailoring, failing to be narrowly tailored to serve a compelling government interest, thus infringing on constitutional rights under the First and Fourteenth Amendments.  \nc) Potential vagueness or arbitrary enforcement concerns, which could render the ordinance unconstitutional on its face or as applied.\n\nThe government interest supporting the ordinance is the compelling interest in maintaining public peace and safety by preventing obstruction and ensuring pedestrian and vehicular traffic flow, thereby protecting the quality of life for citizens.\n\n2. Statutory or doctrinal basis  \n- From Document 1: Quality-of-life crimes that involve an individual’s status, assembling, or speech require a narrowly tailored statute supported by a compelling government interest due to First and Fourteenth Amendment protections.  \n- Disorderly conduct statutes criminalize conduct negatively impacting quality of life but must be constitutionally sound.  \n- Document 3 explains that statutes restricting conduct related to speech must be narrowly tailored and supported by a compelling government interest to withstand constitutional scrutiny.  \n- Document 1 also notes that quality-of-life crimes often face constitutional challenges when they implicate speech or assembly rights.\n\n3. Qualifications  \n- The ordinance must be narrowly tailored and not overly broad to survive constitutional challenge.  \n- The government interest must be compelling and the ordinance must be the least restrictive means to achieve that interest.  \n- The ordinance’s enforcement must not be arbitrary or discriminatory.\n\n4. Conflicts  \n- There is a tension between the government’s interest in maintaining public order and the individual’s constitutional rights to free speech and assembly. The First and Fourteenth Amendments require that any restriction on speech-related conduct be narrowly tailored and justified by a compelling interest, which may limit the ordinance’s scope and enforcement.",
+    "expected_answer": "The ordinance can be challenged under the **First Amendment**, as **void for vagueness**, and as **overbroad**. A sign is expressive, so a First Amendment challenge is appropriate. The words \u201cextended period\u201d are vague, which can lead to uneven application by law enforcement and a failure to provide notice to the public of what behavior is criminal. Holding a sign such as a school crossing sign is protected activity, so an overbreadth challenge is also in order. The government has an interest in keeping the roadways *safe*, and in preventing dangerous distractions that could occur when drivers try to read signs while approaching a crosswalk.",
+    "agent_answer": "1. Legal conclusion  \nThree potential constitutional challenges to a city ordinance prohibiting standing or remaining in a crosswalk for an extended period with a sign are:  \na) Violation of the First Amendment right to free speech, as the ordinance restricts expressive conduct involving holding a sign.  \nb) Overbreadth or lack of narrow tailoring, failing to be narrowly tailored to serve a compelling government interest, thus infringing on constitutional rights under the First and Fourteenth Amendments.  \nc) Potential vagueness or arbitrary enforcement concerns, which could render the ordinance unconstitutional on its face or as applied.\n\nThe government interest supporting the ordinance is the compelling interest in maintaining public peace and safety by preventing obstruction and ensuring pedestrian and vehicular traffic flow, thereby protecting the quality of life for citizens.\n\n2. Statutory or doctrinal basis  \n- From Document 1: Quality-of-life crimes that involve an individual\u2019s status, assembling, or speech require a narrowly tailored statute supported by a compelling government interest due to First and Fourteenth Amendment protections.  \n- Disorderly conduct statutes criminalize conduct negatively impacting quality of life but must be constitutionally sound.  \n- Document 3 explains that statutes restricting conduct related to speech must be narrowly tailored and supported by a compelling government interest to withstand constitutional scrutiny.  \n- Document 1 also notes that quality-of-life crimes often face constitutional challenges when they implicate speech or assembly rights.\n\n3. Qualifications  \n- The ordinance must be narrowly tailored and not overly broad to survive constitutional challenge.  \n- The government interest must be compelling and the ordinance must be the least restrictive means to achieve that interest.  \n- The ordinance\u2019s enforcement must not be arbitrary or discriminatory.\n\n4. Conflicts  \n- There is a tension between the government\u2019s interest in maintaining public order and the individual\u2019s constitutional rights to free speech and assembly. The First and Fourteenth Amendments require that any restriction on speech-related conduct be narrowly tailored and justified by a compelling interest, which may limit the ordinance\u2019s scope and enforcement.",
     "relevant_passage_ids": [
       "12-12.1"
     ],
@@ -2331,7 +2331,7 @@
       "hit_rate": 1.0
     },
     "faithfulness": {
-      "score": 0.6111,
+      "score": 0.6277,
       "score_gpt": 0.6667,
       "score_claude": 0.5556,
       "agreement": 0.8889,
@@ -2340,9 +2340,9 @@
       "claims_supported_gpt": 6,
       "claims_supported_claude": 5
     },
-    "answer_relevance": 0.6575,
+    "answer_relevance": 0.7026,
     "judge": {
-      "final_score": 0.6297,
+      "final_score": 0.668,
       "individual_scores": {
         "gpt-4o-mini": 0.6667,
         "claude-haiku": 0.5556
@@ -2366,7 +2366,7 @@
   {
     "id": "12-12.1-q2",
     "question": "Read *State v. Russell*, 890 A.2d 453 (2006). Why did the Supreme Court of Rhode Island reinstate a complaint against the defendant for disorderly conduct in this case? The case is available at this link: [http://scholar.google.com/scholar\\_case?case=15220603438033851670&q= State+v+Russell&hl=en&as\\_sdt=2,5](http://scholar.google.com/scholar_case?case=15220603438033851670&q=State+v+Russell&hl=en&as_sdt=2,5).",
-    "expected_answer": "The Supreme Court of Rhode Island held that the disorderly conduct statute was not vague or overbroad simply because it does not require conduct to occur in **public**, and therefore the defendant’s attack of his spouse in a private residence could be prosecuted as “creating a hazardous condition.”",
+    "expected_answer": "The Supreme Court of Rhode Island held that the disorderly conduct statute was not vague or overbroad simply because it does not require conduct to occur in **public**, and therefore the defendant\u2019s attack of his spouse in a private residence could be prosecuted as \u201ccreating a hazardous condition.\u201d",
     "agent_answer": "I cannot find sufficient information in the provided context to answer this question.",
     "relevant_passage_ids": [
       "12-12.1",
@@ -2417,8 +2417,8 @@
   },
   {
     "id": "13-13.2-q2",
-    "question": "Read *Humanitarian Law Project v. Reno*, 205 F.3d 1130 (2000). Did the US Court of Appeals for the Ninth Circuit uphold 18 U.S.C. § 2339, which prohibits providing material support to terrorists? What were the constitutional challenges to this federal statute? The case is available at this link: [http://scholar.google.com/scholar\\_case?case=6926778734800618484&q= convicted+%222339%22&hl=en&as\\_sdt=2,5&as\\_ylo=2000](http://scholar.google.com/scholar_case?case=6926778734800618484&q=convicted+%222339%22&hl=en&as_sdt=2,5&as_ylo=2000).",
-    "expected_answer": "The US Court of Appeals for the Ninth Circuit upheld the statute, which was in place before September 11, 2001, and under AEDPA prohibited domestic material support to terrorists and terroristic organizations. The court held that the statute was not an unconstitutional prohibition on the right of free association or expression under the First Amendment, nor did it violate federal due process under the Fifth Amendment by granting the secretary of state unfettered and unreviewable authority to designate organizations as terroristic. However, the court affirmed the US District Court’s decision that portions of the statute defining “personnel” and “training” were **unconstitutionally vague**.",
+    "question": "Read *Humanitarian Law Project v. Reno*, 205 F.3d 1130 (2000). Did the US Court of Appeals for the Ninth Circuit uphold 18 U.S.C. \u00a7 2339, which prohibits providing material support to terrorists? What were the constitutional challenges to this federal statute? The case is available at this link: [http://scholar.google.com/scholar\\_case?case=6926778734800618484&q= convicted+%222339%22&hl=en&as\\_sdt=2,5&as\\_ylo=2000](http://scholar.google.com/scholar_case?case=6926778734800618484&q=convicted+%222339%22&hl=en&as_sdt=2,5&as_ylo=2000).",
+    "expected_answer": "The US Court of Appeals for the Ninth Circuit upheld the statute, which was in place before September 11, 2001, and under AEDPA prohibited domestic material support to terrorists and terroristic organizations. The court held that the statute was not an unconstitutional prohibition on the right of free association or expression under the First Amendment, nor did it violate federal due process under the Fifth Amendment by granting the secretary of state unfettered and unreviewable authority to designate organizations as terroristic. However, the court affirmed the US District Court\u2019s decision that portions of the statute defining \u201cpersonnel\u201d and \u201ctraining\u201d were **unconstitutionally vague**.",
     "agent_answer": "I cannot find sufficient information in the provided context to answer this question.",
     "relevant_passage_ids": [
       "13-13.2",
@@ -2470,7 +2470,7 @@
   {
     "id": "13-13.1-q1",
     "question": "Stephanie stands in front of a mosque and advocates for the overthrow of the US government. Is Stephanie committing **sedition**? Why or why not?",
-    "expected_answer": "Stephanie has not committed **sedition** because she did not advocate for the use of *force* or *violence* or the commission of an *unlawful* act. Stephanie’s speech is most likely protected because she might be envisioning a peaceful government overthrow by legitimate means.",
+    "expected_answer": "Stephanie has not committed **sedition** because she did not advocate for the use of *force* or *violence* or the commission of an *unlawful* act. Stephanie\u2019s speech is most likely protected because she might be envisioning a peaceful government overthrow by legitimate means.",
     "agent_answer": "1. Legal conclusion  \nYes, Stephanie is committing sedition by advocating for the overthrow of the US government.\n\n2. Statutory or doctrinal basis  \nAccording to the summary in Document 3, sedition criminalizes \"advocating, aiding, organizing, or teaching with general intent or knowingly, or publishing, printing, or circulating writings that advocate, aid, or teach with specific intent or purposely the forceful or violent overthrow of the US government.\" Stephanie's act of standing in front of a mosque and advocating for the overthrow fits within the definition of \"advocating\" the forceful or violent overthrow of the government, which constitutes sedition.\n\n3. Qualifications  \nThe advocacy must be with general intent or knowingly, or with specific intent or purposely to overthrow the government. The context does not provide information on Stephanie's intent, but assuming she knowingly advocates for overthrow, the elements are met. The crime is federally regulated and graded as a serious felony.\n\n4. Conflicts  \nNo conflicting provisions are indicated in the provided context. The federal regulation of sedition applies here.",
     "relevant_passage_ids": [
       "13-13.1"
@@ -2495,9 +2495,9 @@
       "claims_supported_gpt": 0,
       "claims_supported_claude": 0
     },
-    "answer_relevance": 0.532,
+    "answer_relevance": 0.5921,
     "judge": {
-      "final_score": 0.2128,
+      "final_score": 0.2609,
       "individual_scores": {
         "gpt-4o-mini": 0.0,
         "claude-haiku": 0.0
@@ -2521,8 +2521,8 @@
   {
     "id": "13-13.3-q1",
     "question": "Susannah, a Hollywood movie star, is a witness in a civil personal injury case. Susannah saw a car accident and is subpoenaed to testify that the defendant was at fault. After the court commissioner administers an oath to tell the truth, Susannah takes the witness stand. She knows the case will generate significant publicity, so Susannah shaves ten years off of her age when asked routine background questions by the prosecutor. If Susannah is thereafter caught in this lie and prosecuted for **perjury**, what will be the primary issue in her perjury prosecution? How will this issue be resolved?",
-    "expected_answer": "The primary issue in Susannah’s perjury prosecution is the **materiality** of her false statement made under oath in a judicial proceeding. While Susannah was asked her age during routine background questions, her lie might *still* be material if her advanced age affected her vision because Susannah is testifying about an important personal observation. In many jurisdictions, the trier of fact, which could be a **jury**, determines the materiality of this statement.",
-    "agent_answer": "1. Legal conclusion  \nThe primary issue in Susannah’s perjury prosecution will be whether her false statement about her age was made under oath, in a judicial proceeding, and concerned a material issue. The resolution hinges on whether the misstatement of her age is considered material to the case.\n\n2. Statutory or doctrinal basis  \nPerjury is defined as false testimony given under oath in a judicial proceeding about a material issue (Document 1: 13.3 Perjury History and Elements). The elements of perjury require that the false statement be: (a) made under oath, (b) in a judicial proceeding, and (c) about a material fact. The materiality requirement ensures that only false statements that could affect the outcome of the proceeding constitute perjury.\n\n3. Qualifications  \nAlthough Susannah was sworn in by the court commissioner and testified in the judicial proceeding, the false statement about her age during routine background questioning may not be material to the determination of fault in a civil personal injury case. Materiality is a threshold issue; if the lie is immaterial, it will not satisfy the elements of perjury.\n\n4. Conflicts  \nNo conflicting provisions are indicated in the provided context. The materiality element is the controlling factor in resolving the issue. If the false statement is immaterial, the prosecution for perjury will fail.",
+    "expected_answer": "The primary issue in Susannah\u2019s perjury prosecution is the **materiality** of her false statement made under oath in a judicial proceeding. While Susannah was asked her age during routine background questions, her lie might *still* be material if her advanced age affected her vision because Susannah is testifying about an important personal observation. In many jurisdictions, the trier of fact, which could be a **jury**, determines the materiality of this statement.",
+    "agent_answer": "1. Legal conclusion  \nThe primary issue in Susannah\u2019s perjury prosecution will be whether her false statement about her age was made under oath, in a judicial proceeding, and concerned a material issue. The resolution hinges on whether the misstatement of her age is considered material to the case.\n\n2. Statutory or doctrinal basis  \nPerjury is defined as false testimony given under oath in a judicial proceeding about a material issue (Document 1: 13.3 Perjury History and Elements). The elements of perjury require that the false statement be: (a) made under oath, (b) in a judicial proceeding, and (c) about a material fact. The materiality requirement ensures that only false statements that could affect the outcome of the proceeding constitute perjury.\n\n3. Qualifications  \nAlthough Susannah was sworn in by the court commissioner and testified in the judicial proceeding, the false statement about her age during routine background questioning may not be material to the determination of fault in a civil personal injury case. Materiality is a threshold issue; if the lie is immaterial, it will not satisfy the elements of perjury.\n\n4. Conflicts  \nNo conflicting provisions are indicated in the provided context. The materiality element is the controlling factor in resolving the issue. If the false statement is immaterial, the prosecution for perjury will fail.",
     "relevant_passage_ids": [
       "13-13.3"
     ],
@@ -2537,7 +2537,7 @@
       "hit_rate": 1.0
     },
     "faithfulness": {
-      "score": 0.3333,
+      "score": 0.366,
       "score_gpt": 0.3333,
       "score_claude": 0.3333,
       "agreement": 1.0,
@@ -2546,9 +2546,9 @@
       "claims_supported_gpt": 2,
       "claims_supported_claude": 2
     },
-    "answer_relevance": 0.6727,
+    "answer_relevance": 0.7233,
     "judge": {
-      "final_score": 0.4691,
+      "final_score": 0.5076,
       "individual_scores": {
         "gpt-4o-mini": 0.3333,
         "claude-haiku": 0.3333
