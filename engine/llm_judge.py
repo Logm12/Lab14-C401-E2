@@ -1,4 +1,5 @@
 import asyncio, json, os
+from typing import Dict, List, Tuple
 import openai
 import numpy as np
 from sentence_transformers import SentenceTransformer
@@ -7,7 +8,15 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-# Keep original prompts to maintain evaluation quality
+_GPT_IN, _GPT_OUT       = 0.15/1e6, 0.60/1e6
+_CLAUDE_IN, _CLAUDE_OUT = 0.25/1e6, 1.25/1e6
+
+_CANNOT_FIND_PHRASES = [
+    "cannot find", "can't find", "not find", "no information",
+    "not enough information", "insufficient information",
+    "i don't have", "not in the context",
+]
+
 FAITHFULNESS_SYSTEM = """You are an expert NLI (Natural Language Inference) judge evaluating factual consistency.
 
 Your task: determine whether a given claim is ENTAILED by the source text.
@@ -22,7 +31,15 @@ Strict rules:
 - Synonymous phrasing counts as entailment; do not penalise paraphrasing
 - Reply with a single word: YES or NO — no explanation, no punctuation"""
 
-FAITHFULNESS_USER = "SOURCE TEXT (the AI-generated answer):\n\"\"\"\n{agent_answer}\n\"\"\"\n\nCLAIM TO VERIFY:\n\"{point}\"\n\nIs this claim fully entailed by the source text above?"
+FAITHFULNESS_USER = """SOURCE TEXT (the AI-generated answer):
+\"\"\"
+{agent_answer}
+\"\"\"
+
+CLAIM TO VERIFY:
+\"{point}\"
+
+Is this claim fully entailed by the source text above?"""
 
 TIEBREAK_SYSTEM = """You are a senior NLI arbitrator resolving inter-judge disagreements on Faithfulness scoring.
 
@@ -72,85 +89,181 @@ Requirements for each generated question:
 
 Output format: exactly 3 questions, one per line, no numbering, no bullet points, no preamble."""
 
-REVERSE_Q_USER = "ANSWER:\n\"\"\"\n{agent_answer}\n\"\"\"\n\nGenerate exactly 3 distinct questions that this answer directly addresses:"
+REVERSE_Q_USER = """ANSWER:
+\"\"\"
+{agent_answer}
+\"\"\"
 
-# Costs per 1M tokens
-COSTS = {"gpt_in": 0.15, "gpt_out": 0.60, "claude_in": 0.25, "claude_out": 1.25}
-_CANNOT_FIND_PHRASES = ["cannot find", "can't find", "not find", "no information", "not enough information", "insufficient information", "i don't have", "not in the context"]
+Generate exactly 3 distinct questions that this answer directly addresses:"""
 
 class LLMJudge:
+
     def __init__(self):
         self._openai = openai.AsyncOpenAI(api_key=os.getenv("OPENAI_API_KEY"))
-        self._openrouter = openai.AsyncOpenAI(base_url="https://openrouter.ai/api/v1", api_key=os.getenv("OPENROUTER_API_KEY"))
-        self._embedder = SentenceTransformer("all-MiniLM-L6-v2")
-        self._usage = {k: 0 for k in COSTS}
-
-    async def _call(self, client, model, sys_msg, user_msg, max_tok, in_key, out_key):
-        resp = await client.chat.completions.create(
-            model=model,
-            messages=[{"role": "system", "content": sys_msg}, {"role": "user", "content": user_msg}],
-            temperature=0.0, max_tokens=max_tok
+        self._openrouter = openai.AsyncOpenAI(
+            base_url="https://openrouter.ai/api/v1",
+            api_key=os.getenv("OPENROUTER_API_KEY"),
         )
-        u = resp.usage
-        self._usage[in_key] += getattr(u, 'prompt_tokens', 0)
-        self._usage[out_key] += getattr(u, 'completion_tokens', 0)
-        return resp.choices[0].message.content.strip()
+        self._embedder = SentenceTransformer("all-MiniLM-L6-v2")
+        self._usage = {"gpt_in": 0, "gpt_out": 0, "claude_in": 0, "claude_out": 0}
 
-    async def _verify(self, is_gpt, answer, point):
-        client, model, ik, ok = (self._openai, "gpt-4o-mini", "gpt_in", "gpt_out") if is_gpt else \
-                                (self._openrouter, "anthropic/claude-haiku-4.5", "claude_in", "claude_out")
-        msg = FAITHFULNESS_USER.format(agent_answer=answer, point=point)
-        res = await self._call(client, model, FAITHFULNESS_SYSTEM, msg, 10, ik, ok)
-        return res.upper() == "YES"
+    # ── low-level callers ──────────────────────────────────────────────────
 
-    async def compute_faithfulness(self, question: str, agent_answer: str, points: list) -> dict:
-        if not points: 
-            return {"score": 0.0, "score_gpt": 0.0, "score_claude": 0.0, "agreement": 1.0, 
-                    "conflict_resolved": False, "claims_total": 0, "claims_supported_gpt": 0, "claims_supported_claude": 0}
-        
-        gpt_tasks = [self._verify(True, agent_answer, p) for p in points]
-        claude_tasks = [self._verify(False, agent_answer, p) for p in points]
-        gpt_res, claude_res = await asyncio.gather(asyncio.gather(*gpt_tasks), asyncio.gather(*claude_tasks))
-        
-        sup_gpt, sup_claude = sum(gpt_res), sum(claude_res)
-        sg, sc = sup_gpt / len(points), sup_claude / len(points)
-        final, conflict, agreement = (sg + sc) / 2, False, 1.0 - abs(sg - sc)
+    async def _gpt(self, system: str, user: str,
+                   max_tokens: int = 512) -> Tuple[str, int, int]:
+        resp = await self._openai.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[{"role": "system", "content": system},
+                      {"role": "user",   "content": user}],
+            temperature=0.0, max_tokens=max_tokens,
+        )
+        pt, ct = resp.usage.prompt_tokens, resp.usage.completion_tokens
+        self._usage["gpt_in"] += pt; self._usage["gpt_out"] += ct
+        return resp.choices[0].message.content.strip(), pt, ct
+
+    async def _claude(self, system: str, user: str,
+                      max_tokens: int = 512) -> Tuple[str, int, int]:
+        resp = await self._openrouter.chat.completions.create(
+            model="anthropic/claude-haiku-4.5",
+            messages=[{"role": "system", "content": system},
+                      {"role": "user",   "content": user}],
+            temperature=0.0, max_tokens=max_tokens,
+        )
+        pt = resp.usage.prompt_tokens if resp.usage else 0
+        ct = resp.usage.completion_tokens if resp.usage else 0
+        self._usage["claude_in"] += pt; self._usage["claude_out"] += ct
+        return resp.choices[0].message.content.strip(), pt, ct
+
+    # ── Faithfulness ──────────────────────────────────────────────────────
+
+    async def _verify_gpt(self, question: str, agent_answer: str, point: str) -> bool:
+        system = FAITHFULNESS_SYSTEM
+        user = FAITHFULNESS_USER.format(
+            agent_answer=agent_answer.strip(),
+            point=point.strip(),
+        )
+        raw, _, _ = await self._gpt(system, user, max_tokens=10)
+        return raw.strip().upper() == "YES"
+
+    async def _verify_claude(self, question: str, agent_answer: str, point: str) -> bool:
+        system = FAITHFULNESS_SYSTEM
+        user = FAITHFULNESS_USER.format(
+            agent_answer=agent_answer.strip(),
+            point=point.strip(),
+        )
+        raw, _, _ = await self._claude(system, user, max_tokens=10)
+        return raw.strip().upper() == "YES"
+
+    async def compute_faithfulness(
+        self,
+        question: str,
+        agent_answer: str,
+        answer_points: List[str],
+    ) -> Dict:
+        if not answer_points:
+            return {"score": 0.0, "score_gpt": 0.0, "score_claude": 0.0,
+                    "agreement": 1.0, "conflict_resolved": False,
+                    "claims_total": 0, "claims_supported_gpt": 0,
+                    "claims_supported_claude": 0}
+
+        gpt_tasks    = [self._verify_gpt(question, agent_answer, p)    for p in answer_points]
+        claude_tasks = [self._verify_claude(question, agent_answer, p) for p in answer_points]
+
+        gpt_results, claude_results = await asyncio.gather(
+            asyncio.gather(*gpt_tasks),
+            asyncio.gather(*claude_tasks),
+        )
+
+        sup_gpt    = sum(gpt_results)
+        sup_claude = sum(claude_results)
+        total      = len(answer_points)
+
+        score_gpt    = sup_gpt    / total
+        score_claude = sup_claude / total
+        agreement    = 1.0 - abs(score_gpt - score_claude)
+        final        = (score_gpt + score_claude) / 2
+        conflict     = False
 
         if agreement < 0.6:
-            pts_txt = "\n".join(f"{i+1}. {p}" for i, p in enumerate(points))
-            msg = TIEBREAK_USER.format(score_gpt=sg, score_claude=sc, delta=abs(sg-sc), 
-                                       agent_answer=agent_answer, n_claims=len(points), points_text=pts_txt)
-            res = await self._call(self._openai, "gpt-4o-mini", TIEBREAK_SYSTEM, msg, 80, "gpt_in", "gpt_out")
+            points_text = "\n".join(f"{i+1}. {p}" for i, p in enumerate(answer_points))
+
+            system = TIEBREAK_SYSTEM
+            user = TIEBREAK_USER.format(
+                score_gpt=score_gpt,
+                score_claude=score_claude,
+                delta=abs(score_gpt - score_claude),
+                agent_answer=agent_answer.strip(),
+                n_claims=len(answer_points),
+                points_text=points_text,
+            )
+
+            raw, _, _ = await self._gpt(system, user, max_tokens=80)
+
             try:
-                final = float(json.loads(res).get("score", final))
+                parsed = json.loads(raw)
+                tiebreak_score = float(parsed["score"])
+                if not (0.0 <= tiebreak_score <= 1.0):
+                    raise ValueError(f"Score out of range: {tiebreak_score}")
+                final    = tiebreak_score
                 conflict = True
-            except: pass
-            
+            except Exception:
+                pass  # keep avg, conflict stays False
+
         return {
-            "score": round(final, 4), "score_gpt": round(sg, 4), "score_claude": round(sc, 4), 
-            "agreement": round(agreement, 4), "conflict_resolved": conflict,
-            "claims_total": len(points), "claims_supported_gpt": sup_gpt, "claims_supported_claude": sup_claude
+            "score":                   round(final, 4),
+            "score_gpt":               round(score_gpt, 4),
+            "score_claude":            round(score_claude, 4),
+            "agreement":               round(agreement, 4),
+            "conflict_resolved":       conflict,
+            "claims_total":            total,
+            "claims_supported_gpt":    sup_gpt,
+            "claims_supported_claude": sup_claude,
         }
 
-    async def compute_answer_relevance(self, question: str, answer: str) -> float:
-        if any(p in answer.lower() for p in _CANNOT_FIND_PHRASES): return 0.0
-        
-        msg = REVERSE_Q_USER.format(agent_answer=answer)
-        res = await self._call(self._openai, "gpt-4o-mini", REVERSE_Q_SYSTEM, msg, 150, "gpt_in", "gpt_out")
-        hyp_qs = [q.strip() for q in res.split("\n") if q.strip()]
-        
-        if not hyp_qs: return 0.0
-        embs = self._embedder.encode([question] + hyp_qs, convert_to_numpy=True)
-        return float(np.mean(cosine_similarity(embs[0:1], embs[1:])[0]))
+    # ── Answer Relevance ──────────────────────────────────────────────────
 
-    async def evaluate(self, question: str, answer: str, points: list) -> dict:
-        f, r = await asyncio.gather(self.compute_faithfulness(question, answer, points), 
-                                    self.compute_answer_relevance(question, answer))
+    async def compute_answer_relevance(self, question: str, agent_answer: str) -> float:
+        if any(p in agent_answer.lower() for p in _CANNOT_FIND_PHRASES):
+            return 0.0
+
+        system = REVERSE_Q_SYSTEM
+        user = REVERSE_Q_USER.format(agent_answer=agent_answer.strip())
+
+        raw, _, _ = await self._gpt(system, user, max_tokens=150)
+
+        hyp_qs = [line.strip() for line in raw.strip().split("\n") if line.strip()]
+        if not hyp_qs:
+            return 0.0
+
+        all_texts = [question] + hyp_qs
+        embs = self._embedder.encode(all_texts, convert_to_numpy=True)
+        sims = cosine_similarity(embs[0:1], embs[1:])[0]
+        return float(np.mean(sims))
+
+    # ── Combined (used from runner) ───────────────────────────────────────
+
+    async def evaluate(
+        self,
+        question: str,
+        agent_answer: str,
+        answer_points: List[str],
+    ) -> Dict:
+        faith_task = self.compute_faithfulness(question, agent_answer, answer_points)
+        rel_task   = self.compute_answer_relevance(question, agent_answer)
+        faith, rel = await asyncio.gather(faith_task, rel_task)
+
         return {
-            "faithfulness": f, "answer_relevance": round(r, 4), 
-            "individual_scores": {"gpt-4o-mini": f["score_gpt"], "claude-haiku": f["score_claude"]}, 
-            "agreement_rate": f["agreement"]
+            "faithfulness":     faith,
+            "answer_relevance": round(rel, 4),
+            "individual_scores": {
+                "gpt-4o-mini":  faith["score_gpt"],
+                "claude-haiku": faith["score_claude"],
+            },
+            "agreement_rate": faith["agreement"],
         }
 
     def total_cost(self) -> float:
-        return sum(self._usage[k] * COSTS[k] for k in COSTS) / 1e6
+        return (self._usage["gpt_in"]    * _GPT_IN
+              + self._usage["gpt_out"]   * _GPT_OUT
+              + self._usage["claude_in"] * _CLAUDE_IN
+              + self._usage["claude_out"]* _CLAUDE_OUT)
